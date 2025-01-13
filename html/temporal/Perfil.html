@@ -19,67 +19,62 @@
       </section>
       <h1>Perfil</h1>
         <section>
-          <div>
-            <p><b>Colaborador</b></p>
-          <div>
-            <table>
-              <thead>
-                <tr>
-                  <th>Nombre(s)</th>
-                  <th>Apellido paterno</th>
-                  <th>Apellido materno</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>AGUSTIN</td>
-                  <td>COPPEL</td>
-                  <td>LUKEN</td>
-                </tr>
-              </tbody>
-              <thead>
-                <tr>
-                  <th>Puesto</th>
-                  <th>Centro</th>
-                  <th>Region</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>PRESIDENTE</td>
-                  <td>123456 CLCN PRESIDENCIA</td>
-                  <td>CLCN</td>
-                </tr>
-              </tbody>
-            </table>
-            <div>
-              <p><b>Pareja</b></p>
-            <div>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Nombre(s)</th>
-                    <th>Apellido paterno</th>
-                    <th>Apellido materno</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>ISABEL</td>
-                    <td>GOMEZ</td>
-                    <td>HANS</td>
-                  </tr>
-                </tbody>  
-              </table>
-
-
-
-          <div class="div-enlaces">
-            <a href="#" class="enlaces--btn">Guardar</a>
-            <a href="#" class="enlaces-btn--cancel">Cancelar</a>
-          </div>
-
-          
+          <h2>Colaborador</h2>
+          <div class="container">
+            <div class="row profile-info">
+                <div class="column">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" value="Juan" disabled>
+                </div>
+                <div class="column">
+                    <label for="apellidoP">Apellido Paterno</label>
+                    <input type="text" id="apellidoP" value="Pérez" disabled>
+                </div>
+                <div class="column">
+                    <label for="apellidoM">Apellido Materno</label>
+                    <input type="text" id="apellidoM" value="López" disabled>
+                </div>
+                <div class="column">
+                    <label for="puesto">Puesto</label>
+                    <input type="text" id="puesto" value="Analista" disabled>
+                </div>
+                <div class="column">
+                    <label for="centro">Centro</label>
+                    <input type="text" id="centro" value="Centro ABC" disabled>
+                </div>
+                <div class="column">
+                    <label for="region">Región</label>
+                    <input type="text" id="region" value="Norte" disabled>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="editButton">Editar</button>
+                <button id="saveButton" style="display: none;">Guardar</button>
+            </div>
+        </div>
+        </section>
+        <section>
+          <h2>Pareja</h2>
+          <div class="container">
+            <div class="row profile-info">
+                <div class="column">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" value="ANA LUISA" disabled>
+                </div>
+                <div class="column">
+                    <label for="apellidoP">Apellido Paterno</label>
+                    <input type="text" id="apellidoP" value="GÓNZALEZ" disabled>
+                </div>
+                <div class="column">
+                    <label for="apellidoM">Apellido Materno</label>
+                    <input type="text" id="apellidoM" value="VALLE" disabled>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="editButton">Editar</button>
+                <button id="saveButton" style="display: none;">Guardar</button>
+            </div>
+        </div>
         </section>
     </main>
     <footer>
@@ -92,7 +87,7 @@
       
     </footer>
 
-    
+    <script src="temporal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

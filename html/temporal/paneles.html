@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.: Paneles :.</title>
+    <link rel="shortcut icon" href="../../assets/ico/favico.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+      <section class="main_chatico">
+        <div>
+          <img src="../../assets/ico/ico_chat.png" alt="ico_chat">
+        </div>
+        <div>
+            <h1>Selecciona un panel</h1>
+            <p>Selecciona solo un panel por horario, recuerda que el cupo es límitado.</p>
+        </div>
+      </section>
+        <section>
+          <h2>Panel 1</h2>
+          <p>12:00 - 12:50 hrs</p>
+            <div class="section">
+                <div class="panels">
+                    <div class="panel" data-capacity="70">
+                        <input type="radio" name="section1" class="checkbox">
+                        Panel 1<br>Capacidad: <span>70</span>
+                    </div>
+                    <div class="panel" data-capacity="50">
+                        <input type="radio" name="section1" class="checkbox">
+                        Panel 2<br>Capacidad: <span>70</span>
+                    </div>
+                    <div class="panel" data-capacity="40">
+                        <input type="radio" name="section1" class="checkbox">
+                        Panel 3<br>Capacidad: <span>70</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Panel 2</h2>
+             <p>13:20 - 14:10 hrs</p>
+            <div class="panels">
+                <div class="panel" data-capacity="60">
+                    <input type="radio" name="section2" class="checkbox">
+                    Panel 1<br>Capacidad: <span>70</span>
+                </div>
+                <div class="panel" data-capacity="45">
+                    <input type="radio" name="section2" class="checkbox">
+                    Panel 2<br>Capacidad: <span>70</span>
+                </div>
+                <div class="panel" data-capacity="30">
+                    <input type="radio" name="section2" class="checkbox">
+                    Panel 3<br>Capacidad: <span>70</span>
+                </div>
+            </div>
+        </div>
+        </section>
+        <div>
+            <button id="submitButton">Confirmar Selección</button>
+            <p class="message" id="errorMessage">Necesitas seleccionar un panel por sección.</p>
+        </div>    
+    </main>
+    <footer>
+      <div class="footer_txt">
+          <p class="footer_txt_white">Usa</p><p class="footer_txt_yellow"> #Convencion2025 </p><p class="footer_txt_white"> en tus redes sociales</p>
+      </div>
+      <div class="footer_asset">
+          <img src="../assets/ico/asset_footer.png" alt="ico_footer">
+      </div>
+      
+    </footer>
+
+    <script src="temporal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
