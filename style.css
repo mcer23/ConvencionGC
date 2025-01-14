@@ -1,0 +1,39 @@
+:root{
+    --fontTitle:#FDD73E;
+    --subtitle:#5265FD;
+    --text:#FFF;}
+
+*{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        background-color: #2E2E2E;}
+      
+    
+html{
+        font-size: 62.5%;
+        font-family: "Inter", serif;
+        overflow-x:hidden;}
+        
+
+    
+/*************  Mobile first    ***********/
+
+/*************  index/sign in    ***********/
+.main--signin{
+        background-image: url(assets/img/bg_mobile.png);
+        width:320px;
+        max-width: 100%;
+        height: auto;
+}
+.signin--logo-img{
+        display: flex;
+        width:147px;
+        max-width: 222px;
+        height: 92px;
+        justify-content: center;
+        margin: 0 auto;
+
+}
+
+        
