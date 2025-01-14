@@ -35,5 +35,51 @@ html{
         margin: 0 auto;
 
 }
+.signin--formSection h1{
+        display: flex;
+        width:149px;
+        max-width: 222px;
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--text);
+        margin:27px auto;
+}
+.formSection--userInfo-correo, .formSection--userInfo-contra{
+        display: flex;
+        flex-direction: row;
+}
+.formSection-userInfo{
+        display: flex;
+       flex-direction: column;
+}
+.formSection-userInfo img{
+        width:24px;
+        max-width: 43px;
+        height: auto;
+}
+.formSection-userInfo input{
+        width:126ox;
+        max-width: 228px;
+}
+.signin--formSection-btns button{
+        display: flex;
+        width: 153px;
+        max-width: 277px;
+        height: auto;
+        border-radius: 13px;
+        color: var(--text);
+        text-align: center;
+        font-size: 1.2rem;
+        background-color: var(--subtitle);
+        border: none;
+}
+.signin--formSection-btns a{
+        display: flex;
+        text-decoration: none;
+        color: var(--fontTitle);
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1rem;
+}
 
         
