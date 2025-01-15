@@ -6,25 +6,32 @@
 *{
         box-sizing: border-box;
         margin:0;
-        padding:0;
-        background-color: #2E2E2E;}
+        padding:0;}
+        /* background-color: #2E2E2E; */
       
     
 html{
         font-size: 62.5%;
         font-family: "Inter", serif;
-        overflow-x:hidden;}
+        overflow-x:hidden;
+        }
         
 
     
 /*************  Mobile first    ***********/
 
 /*************  index/sign in    ***********/
-.main--signin{
+body{
         background-image: url(assets/img/bg_mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
         width:320px;
         max-width: 100%;
-        height: auto;
+        height: 558px
+}
+
+.signin--logo{
+        padding-top: 110px;
 }
 .signin--logo-img{
         display: flex;
@@ -34,6 +41,13 @@ html{
         justify-content: center;
         margin: 0 auto;
 
+
+}
+.signin--formSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 .signin--formSection h1{
         display: flex;
@@ -51,6 +65,8 @@ html{
 .formSection-userInfo{
         display: flex;
        flex-direction: column;
+       width:200px;
+       max-width: 277px;
 }
 .formSection-userInfo img{
         width:24px;
@@ -58,14 +74,23 @@ html{
         height: auto;
 }
 .formSection-userInfo input{
-        width:126ox;
-        max-width: 228px;
+        border: none;
+        
+}
+.formSection--userInfo-contra{
+        margin-top: 23px;
+}
+.signin--formSection-btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:22px auto;
 }
 .signin--formSection-btns button{
-        display: flex;
         width: 153px;
         max-width: 277px;
-        height: auto;
+        height: 26px;
         border-radius: 13px;
         color: var(--text);
         text-align: center;
@@ -80,6 +105,7 @@ html{
         text-align: center;
         margin: 0 auto;
         font-size: 1rem;
+        margin-top: 12px;
 }
 
         
