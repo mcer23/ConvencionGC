@@ -1,0 +1,120 @@
+:root{
+    --fontTitle:#FDD73E;
+    --subtitle:#3045FF;
+    --text:#FFF;}
+
+*{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        background-color: #2E2E2E;}
+      
+    
+html{
+        font-size: 62.5%;
+        font-family: "Inter", serif;
+        overflow-x:hidden;
+        }
+/*************  Mobile first    ***********/
+/*************  Perfil   ***********/  
+/*!   Arreglar footer  ***********/
+.chatico{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: fixed;
+        bottom: 40%;
+        right: 30px;
+        z-index: 100;
+}
+
+.chatico img{
+        width: 38px;
+        max-width: 61px;
+        height: auto;
+}   
+.main--title h1{
+        margin-left: 18px;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #FDD73E;
+        text-align: left;
+}   
+.main--part1 h2 {
+        margin-left: 18px;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #FFF;
+        text-align: left; 
+}
+.main--part2 h2{
+        margin-top: 10px;
+        margin-left: 18px;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #FFF;
+        text-align: left; 
+}
+.profile-info{
+        margin-top: 11px;
+}
+.div-part1,.div-part2{
+        margin-left: 18px;
+}
+.div-part1 label, .div-part2 label{
+        color: #FFF;
+        font-size: 1.2rem;
+}
+.button-container{
+        margin-top: 20px;
+} 
+.button-container button{
+        width: 153px;
+        max-width: 226px;
+        height: 26px;
+        border-radius: 13px;
+        background-color: #3045FF;
+        color: #FFF;
+        font-size: 1.4rem;
+        border: none;
+        margin-bottom: 10px;
+        
+}
+footer{
+        display: grid;
+        grid-template-columns: 1fr auto; /* Dos columnas: texto y asset */
+        grid-template-rows: repeat(3, auto);
+        /* display: flex; 
+        justify-content: space-between;*/
+        align-items: center;
+        width:100%;
+        height: auto;
+        border-top: 1px solid #B2B2B2;
+        padding: 10px 20px;
+        box-sizing: border-box;
+}
+.footer_txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.footer_txt p{
+        font-weight: 700;
+        text-align: center;
+        margin:0;
+}
+.footer_asset{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-column: 2;
+        grid-row: 1/4;
+} 
+.footer_asset img{
+        width:102px;
+        max-width: 200px;
+        height: 40px; 
+        margin-left: 125%;  
+
+}

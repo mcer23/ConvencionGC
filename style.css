@@ -107,5 +107,77 @@ body{
         font-size: 1rem;
         margin-top: 12px;
 }
+/*************  Popup    ***********/
+.popup--title h1{
+        display: flex;
+        width:90%;
+        max-width: 100%; 
+        font-size: 1.4rem;
+        text-align: start;
+        color: var(--text);
+        font-weight: 700;
+        margin-left: 40px;
+        margin-top: 80px;
+}
+.popup--title p{
+        display: flex;
+        width:80%;
+        max-width: 100%;
+        font-size: 1.2rem;
+        text-align: start;
+        color: var(--text);
+        margin-left: 40px;     
+}
+.popup--title-btns .btn1{
+        display: flex;
+        width:75%;
+        max-width: 80%;
+        height: 58px;
+        border: 1px solid var(--fontTitle) ;
+        border-radius: 10px;
+        margin-left: 40px;
+        
+}
+.popup--title-btns .btn2{
+        margin-top: 52px;
+        display: flex;
+        width:75%;
+        max-width: 80%;
+        height: 58px;
+        border: 1px solid var(--fontTitle) ;
+        border-radius: 10px;
+        margin-left: 40px;
+        
+}
+.popup--title-btns a{
+        justify-content: flex-start;
+        align-items: center;
+        text-decoration: none;
+        color: #FFF;
+        font-size: 1.2rem;
+        padding-left: 14px;
+
+}
+.popup-continuar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        width:153px; 
+        /*! max-width: ;    PENDIENTE     */       
+        height: 26px;
+        background-color: var(--subtitle);
+        border-radius: 13px;
+        margin-top: 59px;
+
+
+}
+.popup-continuar a{
+        font-size: 1.2rem;
+        color: #FFF;
+        text-decoration: none;
+        text-align: center;
+
+}
 
         
