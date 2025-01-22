@@ -9,70 +9,123 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="temporal.css">
 </head>
 <body>
     <main>
-      <section class="main_chatico">
-        <div>
-          <img src="../../assets/ico/ico_chat.png" alt="ico_chat">
-        </div>
-        <div>
-            <h1>Selecciona un panel</h1>
+        <section class="main_chatico">
+            <div class="chatico panell--chatico">
+            <img src="../../assets/ico/ico_chat.png" alt="ico_chat">
+            </div>
+        </section>  
+        <div class="main--title">
+            <h1>Paneles</h1>
             <p>Selecciona solo un panel por horario, recuerda que el cupo es límitado.</p>
         </div>
-      </section>
-        <section>
+      
+        <section class="main--panel">
           <h2>Panel 1</h2>
           <p>12:00 - 12:50 hrs</p>
-            <div class="section">
-                <div class="panels">
-                    <div class="panel" data-capacity="70">
-                        <input type="radio" name="section1" class="checkbox">
-                        Panel 1<br>Capacidad: <span>70</span>
+          <!-- Panel 1: RH -->
+            <div class="panel--card">
+                <input type="checkbox" name="section2" class="checkbox">
+                <a href="paneles/panel_1.html" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Más información Panel 1.">
+                    <span class="arrow-icon"></span>
+                </a>
+                <div class="panel--img">
+                    <img src="../../assets/img/Panel_11.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                    <div class="panel--txt">
+                    <p class="card-title">Equipos de alto rendimiento</p>
+                    <p class="card-text">Capacidad diponible: <span>70</span></p>
                     </div>
-                    <div class="panel" data-capacity="50">
-                        <input type="radio" name="section1" class="checkbox">
-                        Panel 2<br>Capacidad: <span>70</span>
-                    </div>
-                    <div class="panel" data-capacity="40">
-                        <input type="radio" name="section1" class="checkbox">
-                        Panel 3<br>Capacidad: <span>70</span>
-                    </div>
+            </div>
+            <!-- Panel 2: Finanzas -->
+            <div class="panel--card">
+                <input type="checkbox" name="section2" class="checkbox">
+                <a href="paneles/panel_2.html" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Más información Panel 2.">
+                    <span class="arrow-icon"></span>
+                </a>
+                <div class="panel--img">
+                <img src="../../assets/img/Panel_12.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="panel--txt">
+                    <p class="card-title">Finanzas...¿En crisis?</p>
+                    <p class="card-text">Capacidad diponible: <span>70</span></p>
+                </div>
+            </div>
+            <!-- Panel 3: tech -->
+            <div class="panel--card">
+                <input type="checkbox" name="section2" class="checkbox">
+                <a href="paneles/panel_3.html" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Más información Panel 3.">
+                    <span class="arrow-icon"></span>
+                </a>
+                <div class="panel--img">
+                <img src="../../assets/img/Panel_13.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="panel--txt">
+                    <p class="card-title">Ciberseguridad y datos</p> 
+                    <p class="card-text">Capacidad diponible: <span>70</span></p>
                 </div>
             </div>
         </section>
-        <section>
-            <h2>Panel 2</h2>
+        <section class="main--panel">   
+             <h2>Panel 2</h2>
              <p>13:20 - 14:10 hrs</p>
-            <div class="panels">
-                <div class="panel" data-capacity="60">
-                    <input type="radio" name="section2" class="checkbox">
-                    Panel 1<br>Capacidad: <span>70</span>
+             <!-- Panel 4: tienda -->
+            <div class="panel--card">
+                <input type="checkbox" name="section2" class="checkbox">
+                <a href="paneles/panel_4.html" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Más información Panel 1.">
+                    <span class="arrow-icon"></span>
+                </a>
+                <div class="panel--img">
+                    <img src="../../assets/img/Panel_21.png" class="img-fluid rounded-start" alt="...">
                 </div>
-                <div class="panel" data-capacity="45">
-                    <input type="radio" name="section2" class="checkbox">
-                    Panel 2<br>Capacidad: <span>70</span>
-                </div>
-                <div class="panel" data-capacity="30">
-                    <input type="radio" name="section2" class="checkbox">
-                    Panel 3<br>Capacidad: <span>70</span>
-                </div>
+                    <div class="panel--txt">
+                    <p class="card-title">El cliente es rey</p>
+                    <p class="card-text">Capacidad diponible: <span>70</span></small></p>
+                    </div>
             </div>
-        </div>
+            <!-- Panel 5: banco -->
+            <div class="panel--card">
+                <input type="checkbox" name="section2" class="checkbox">
+                <a href="paneles/panel_5.html" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Más información Panel 1.">
+                    <span class="arrow-icon"></span>
+                </a>
+                <div class="panel--img">
+                    <img src="../../assets/img/Panel_22.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                    <div class="panel--txt">
+                    <p class="card-title">Dinero en movimiento</p>
+                    <p class="card-text">Capacidad diponible: <span>70</span></small></p>
+                    </div>
+            </div>
+            <!-- Panel 6: afore -->
+            <div class="panel--card">
+                <input type="checkbox" name="section2" class="checkbox">
+                <a href="paneles/panel_6.html" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Más información Panel 1.">
+                    <span class="arrow-icon"></span>
+                </a>
+                <div class="panel--img">
+                    <img src="../../assets/img/Panel_23.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                    <div class="panel--txt">
+                    <p class="card-title">Ahorrar para mañana</p>
+                    <p class="card-text">Capacidad diponible: <span>70</span></small></p>
+                    </div>
+            </div>
         </section>
-        <div>
+        <div class="button-container">
             <button id="submitButton">Confirmar Selección</button>
-            <p class="message" id="errorMessage">Necesitas seleccionar un panel por sección.</p>
         </div>    
     </main>
     <footer>
-      <div class="footer_txt">
-          <p class="footer_txt_white">Usa</p><p class="footer_txt_yellow"> #Convencion2025 </p><p class="footer_txt_white"> en tus redes sociales</p>
-      </div>
-      <div class="footer_asset">
-          <img src="../assets/ico/asset_footer.png" alt="ico_footer">
-      </div>
-      
+        <div>
+            <img src="../../assets/ico/footer_mobile.png" alt="">
+            <div class="footer_txt">
+                <p class="footer_txt_white" style="color: #FFF">Usa</p><p class="footer_txt_yellow" style="color: #FDD73E;"> #Convencion2025 </p><p class="footer_txt_white" style="color: #FFF"> en tus redes sociales</p>
+            </div>
+        </div>
     </footer>
 
     <script src="temporal.js"></script>

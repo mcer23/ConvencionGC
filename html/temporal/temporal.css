@@ -1,13 +1,15 @@
 :root{
     --fontTitle:#FDD73E;
-    --subtitle:#3045FF;
+    --button:#3045FF;
+    --subtitle: #5265FD;
     --text:#FFF;}
 
 *{
         box-sizing: border-box;
         margin:0;
         padding:0;
-        background-color: #2E2E2E;}
+        background-color: #2E2E2E;
+        color: #FFF;}
       
     
 html{
@@ -22,7 +24,7 @@ html{
         justify-content: flex-end;
         align-items: flex-end;
         position: fixed;
-        bottom: 40%;
+        bottom: 182px;
         right: 55px;
         z-index: 100;
 }
@@ -102,5 +104,90 @@ footer{
         text-align: center;
         line-height: 0.5;
         
+}
+/*************  Paneles  ***********/  
+.panell--chatico{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: fixed;
+        bottom: 90px;
+        right: 55px;
+        z-index: 100; 
+}
+.main--title p{
+        width: 285px;
+        max-width: 440px;
+        margin-left: 18px;
+        font-size: 1.2rem;
+        color: #FFF;
+        text-align: left; 
+}
+.main--panel h2{
+        margin-left: 18px;
+        font-size: 1.4rem;
+        color: var(--subtitle);
+        text-align: left; 
+}
+.main--panel p{
+        width: 285px;
+        max-width: 440px;
+        margin-left: 18px;
+        font-size: 1.2rem;
+        color: #B2B2B2;
+        text-align: left; 
+}
+.panel--card{
+        position: relative;
+        width:290px;
+        max-width: 813px;
+        height: 72px;
+        display: flex;
+        margin: 10px auto;
+        border: 1px solid #FDD73E;
+        border-radius: 5px;
+
+}
+.panel--card input{
+        position: absolute;
+        top:5px;
+        right: 5px;
+}
+.panel--card .arrow-icon{
+        background-image: url(../../assets/ico/right-arrow.png);
+        position:absolute;
+        width:12px;
+        height: 24px;
+        top:25px;
+        right: 6px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+.panel--img img{
+        width:110px;
+        max-width: 257px;
+        height: auto;
+}
+.panel--txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.panel--txt p{
+        width: 150px;
+        height: auto;
+}
+.panel--txt .card-title{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #FFF;
+        word-wrap: break-word;
+}
+.panel--txt .card-text,.panel--txt span {
+        font-weight: 1rem;
+        color: #B2B2B2;
 }
 
