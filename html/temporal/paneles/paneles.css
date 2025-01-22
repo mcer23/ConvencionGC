@@ -1,0 +1,163 @@
+:root{
+    --fontTitle:#FDD73E;
+    --button:#3045FF;
+    --subtitle: #5265FD;
+    --text:#FFF;}
+
+*{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        background-color: #2E2E2E;
+        color: #FFF;} 
+html{
+        font-size: 62.5%;
+        font-family: "Inter", serif;
+        overflow-x:hidden;}
+        
+/*************  Mobile first    ***********/
+.chatico{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 182px;
+    right: 55px;
+    z-index: 100;}
+
+.chatico img{
+    width: 38px;
+    max-width: 61px;
+    height: auto;
+    background-color: transparent;} 
+
+.main--title h1{
+    margin-top:50px ;
+    margin-left: 18px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #FDD73E;
+    text-align: left;}
+ 
+.main--title p{
+    width: 285px;
+    max-width: 440px;
+    margin-left: 18px;
+    font-size: 1.2rem;
+    color: #FFF;
+    text-align: left;
+    margin-bottom: 10px;}
+
+.panel--chatico{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 90px;
+    right: 55px;
+    z-index: 100;}
+  
+.chatico img{
+    width: 38px;
+    max-width: 61px;
+    height: auto;}
+
+.panel--card{
+    position: relative;
+    width:300px;
+    max-width: 813px;
+    height: 130px;
+    display: flex;
+    margin: 10px 18px;} 
+    
+.panel--img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.panel--img img{
+    width:90px;
+    max-width: 257px;
+    height: auto;}
+
+.panel--txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;}
+
+.panel--txt p{
+    width: 180px;
+    height: auto;}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #FFF;
+    word-wrap: break-word;}
+
+.card-text{
+    font-weight: 1rem;
+    color: #B2B2B2;}
+
+.card-subtitle{
+    font-size: 1rem;
+    color: #FFF;
+    word-wrap: break-word;}
+
+.div-enlaces {
+    width: 126px;
+    max-width: 226px;
+    height: 21px;
+    border-radius: 13px;
+    background-color: #3045FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-enlaces a{
+    width: 126px;
+    max-width: 226px;
+    height: 21px;
+    border-radius: 13px;
+    background-color: #3045FF;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-align: center;
+    
+} 
+       
+    
+footer{
+        position: relative;
+        text-align: center;
+        padding-top: 50px;}
+        
+
+
+.footer_txt{
+        position: absolute;
+        top:50%;
+        left: 25%;}
+        
+        
+
+.footer_txt p{
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-align: center;
+        line-height: 0.5;} 
+        
+   
+   
+
+
+
+    
+
+   
+   
+        
