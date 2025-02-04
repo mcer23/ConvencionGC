@@ -27,28 +27,24 @@ body{
         background-repeat: no-repeat;
         width:320px;
         max-width: 100%;
-        height: 558px
-}
+        height: 558px}
 
-.signin--logo{
-        padding-top: 110px;
-}
+.signin--logo{padding-top: 110px;}
+        
 .signin--logo-img{
         display: flex;
         width:147px;
         max-width: 222px;
         height: 92px;
         justify-content: center;
-        margin: 0 auto;
+        margin: 0 auto;}
 
-
-}
 .signin--formSection{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-}
+        align-items: center;}
+
 .signin--formSection h1{
         display: flex;
         width:149px;
@@ -56,37 +52,34 @@ body{
         font-size: 1.2rem;
         text-align: center;
         color: var(--text);
-        margin:27px auto;
-}
+        margin:27px auto;}
+
 .formSection--userInfo-correo, .formSection--userInfo-contra{
         display: flex;
-        flex-direction: row;
-}
+        flex-direction: row;}
+
 .formSection-userInfo{
         display: flex;
        flex-direction: column;
        width:200px;
-       max-width: 277px;
-}
+       max-width: 277px;}
+
 .formSection-userInfo img{
         width:24px;
         max-width: 43px;
-        height: auto;
-}
-.formSection-userInfo input{
-        border: none;
+        height: auto;}
+
+.formSection-userInfo input{border: none;}
         
-}
-.formSection--userInfo-contra{
-        margin-top: 23px;
-}
+.formSection--userInfo-contra{margin-top: 23px;}
+        
 .signin--formSection-btns{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin:22px auto;
-}
+        margin:22px auto;}
+
 .signin--formSection-btns button{
         width: 153px;
         max-width: 277px;
@@ -96,8 +89,8 @@ body{
         text-align: center;
         font-size: 1.2rem;
         background-color: var(--subtitle);
-        border: none;
-}
+        border: none;}
+
 .signin--formSection-btns a{
         display: flex;
         text-decoration: none;
@@ -105,8 +98,8 @@ body{
         text-align: center;
         margin: 0 auto;
         font-size: 1rem;
-        margin-top: 12px;
-}
+        margin-top: 12px;}
+
 /*************  Popup    ***********/
 .popup--title h1{
         display: flex;
@@ -117,8 +110,8 @@ body{
         color: var(--text);
         font-weight: 700;
         margin-left: 40px;
-        margin-top: 80px;
-}
+        margin-top: 80px;}
+
 .popup--title p{
         display: flex;
         width:80%;
@@ -126,8 +119,8 @@ body{
         font-size: 1.2rem;
         text-align: start;
         color: var(--text);
-        margin-left: 40px;     
-}
+        margin-left: 40px; }    
+
 .popup--title-btns .btn1{
         display: flex;
         width:75%;
@@ -135,9 +128,8 @@ body{
         height: 58px;
         border: 1px solid var(--fontTitle) ;
         border-radius: 10px;
-        margin-left: 40px;
+        margin-left: 40px;}
         
-}
 .popup--title-btns .btn2{
         margin-top: 52px;
         display: flex;
@@ -146,18 +138,16 @@ body{
         height: 58px;
         border: 1px solid var(--fontTitle) ;
         border-radius: 10px;
-        margin-left: 40px;
+        margin-left: 40px;}
         
-}
 .popup--title-btns a{
         justify-content: flex-start;
         align-items: center;
         text-decoration: none;
         color: #FFF;
         font-size: 1.2rem;
-        padding-left: 14px;
+        padding-left: 14px;}
 
-}
 .popup-continuar{
         display: flex;
         flex-direction: row;
@@ -168,16 +158,139 @@ body{
         height: 26px;
         background-color: var(--subtitle);
         border-radius: 13px;
-        margin-top: 59px;
+        margin-top: 59px;}
 
-
-}
 .popup-continuar a{
         font-size: 1.2rem;
         color: #FFF;
         text-decoration: none;
-        text-align: center;
+        text-align: center;}
+
+
+/* ************               HOME            *************/
+.nav--menu{
+        width:320px;
+        max-width: 1280px;
+        height: 44px;
+}
+.nav--menu .nav-profile{
+        background-image: url(/assets/ico/user.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position:absolute;
+        width:24px;
+        max-width: 33px;
+        height: 24px;
+        margin-left: 15px;
+        margin-top: 10px;
+}
+.nav--menu p{
+        color: #FDD73E;
+        font-size: 1.2rem;
+        padding-top: 14px;
+        margin-right: 15px;
+        text-align: right;
+}
+.panel--chatico{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: fixed;
+        bottom: 90px;
+        right: 30px;
+        z-index: 100; }
+
+.panel--chatico img{
+        width: 50px;
+        max-width: 80px;
+        height: 50px;
+
+}        
+
+.portada--home{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 30px;
+        align-self: center;
+        justify-content: center;
+}   
+.portada-derecha, .portada-izquierda{
+        width:160px;
+        height: 117px;
+}
+
+.portada-derecha h1{
+        color: #FFF;
+        font-size: 1.2rem;
+        margin-left: 50px;
+} 
+
+.portada-derecha img{
+        width:74px;
+        max-width: 228px;
+        height: 49px;
+        margin-left: 50px;
+}
+.portada-izquierda img{
+        width: 116px;
+        max-width: 216px;
+        height: 112px;
+}
+.menu--home{
+        width:320px;
+        max-width: 1280px;
+        height: 320px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 44px;
+}
+.menu-home-ico{
+        width:66px;
+        max-width: 136px;
+        height: 89px;
+        margin-left: 60px;
+       
 
 }
+.menu-home-ico img{
+        width:66px;
+        max-width: 117px;
+        height: 66px;
+}
+.menu-home-ico p{
+        color: #FFF;
+        font-size: 1.2rem;
+        padding-top: 8px;
+        text-align: center;
+}
+footer{
+        position: relative;
+        text-align: center;
+        padding-top: 50px;
+        
+
+}
+.footer_txt{
+        position: absolute;
+        top:50%;
+        left: 25%;
+        
+        
+}
+.footer_txt p{
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-align: center;
+        line-height: 0.5;
+        
+}
+
+
+
+
+
+
 
         
