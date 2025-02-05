@@ -1,0 +1,166 @@
+:root{
+    --fontTitle:#FDD73E;
+    --subtitle:#5265FD;
+    --text:#FFF;}
+
+*{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        background-color: #2E2E2E;}
+      
+    
+html{
+        font-size: 62.5%;
+        font-family: "Inter", serif;
+        overflow-x:hidden;
+        }
+
+
+
+/* ************               HOME            *************/
+.nav--menu{
+    width:320px;
+    max-width: 1280px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 15px;
+}
+.nav--menu .nav-profile{
+    background-image: url(/assets/ico/user.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:24px;
+    max-width: 33px;
+    height: 24px;
+    
+}
+.nav--menu a{
+    color: #FDD73E;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.panel--chatico{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 270px;
+    right: 50px;
+    z-index: 100; }
+
+.panel--chatico img{
+    width: 50px;
+    max-width: 80px;
+    height: 50px;
+
+}        
+
+.portada--home{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 30px;
+    align-self: center;
+    justify-content: center;
+}   
+.portada-derecha, .portada-izquierda{
+    width:160px;
+    height: 117px;
+}
+
+.portada-derecha h1{
+    color: #FFF;
+    font-size: 1.2rem;
+    margin-left: 50px;
+} 
+
+.portada-derecha img{
+    width:74px;
+    max-width: 228px;
+    height: 49px;
+    margin-left: 50px;
+}
+.portada-izquierda img{
+    width: 116px;
+    max-width: 216px;
+    height: 112px;
+}
+.menu--home{
+    width:320px;
+    max-width: 1280px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 44px;
+}
+.menu-home-ico{
+    width:66px;
+    max-width: 136px;
+    height: 89px;
+    margin-left: 60px;
+}
+.menu-home-ico img{
+    width:66px;
+    max-width: 117px;
+    height: 66px;
+}
+.menu-home-ico p{
+    color: #FFF;
+    font-size: 1.2rem;
+    padding-top: 8px;
+    text-align: center;
+}
+.menu-home-ico a{ text-decoration: none;}
+
+footer{
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer_txt{
+    position: absolute;
+    top:50%;
+    left: 25%;
+    
+    
+}
+.footer_txt p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.5;
+    
+}
+/* ************        PROGRAMA            *************/
+.navbar--line{
+    border-bottom-color:#B2B2B2;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+}
+.navbar--logo img{
+    width:176px;
+    max-width: 375px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler span{
+    background-color:  #FDD73E;
+}
+.menu-option1-title h1{
+    padding-top:50px ;
+    padding-left: 18px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #FDD73E;
+    text-align: left;
+}
