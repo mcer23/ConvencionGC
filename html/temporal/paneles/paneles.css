@@ -68,7 +68,19 @@ html{
     max-width: 813px;
     height: 130px;
     display: flex;
-    margin: 10px 18px;} 
+    margin: 10px 18px;}
+    
+.panel--card .arrow-icon{
+    background-image: url(../../assets/ico/right-arrow.png);
+    position:absolute;
+    width:12px;
+    height: 24px;
+    top:25px;
+    right: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}    
     
 .panel--img{
     display: flex;

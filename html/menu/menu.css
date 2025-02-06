@@ -1,6 +1,6 @@
 :root{
     --fontTitle:#FDD73E;
-    --subtitle:#5265FD;
+    --subtitle:#3045FF;
     --text:#FFF;}
 
 *{
@@ -27,6 +27,9 @@ html{
     align-items: center;
     justify-content: space-between; 
     padding: 0 15px;
+    border-bottom-color:#B2B2B2;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
 }
 .nav--menu .nav-profile{
     background-image: url(/assets/ico/user.png);
@@ -57,7 +60,6 @@ html{
     width: 50px;
     max-width: 80px;
     height: 50px;
-
 }        
 
 .portada--home{
@@ -126,8 +128,6 @@ footer{
     position: absolute;
     top:50%;
     left: 25%;
-    
-    
 }
 .footer_txt p{
     font-size: 1.4rem;
@@ -137,6 +137,18 @@ footer{
     
 }
 /* ************        PROGRAMA            *************/
+.nav-item{
+    border-bottom-color:#B2B2B2;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+}
+.nav-item a{
+    color: #FDD73E;
+    font-size: 1rem;
+    font-weight: 700;}
+    
+
+.nav-item a:hover{color: #FFF;}
 .navbar--line{
     border-bottom-color:#B2B2B2;
     border-bottom-style: solid;
@@ -153,14 +165,115 @@ footer{
 .navbar-toggler{
     border: none;
 }
-.navbar-toggler span{
-    background-color:  #FDD73E;
-}
+/* !   arreglar!      */
+.navbar-toggler span{color:  #FDD73E;}
+    
+
 .menu-option1-title h1{
-    padding-top:50px ;
+    padding-top:20px ;
     padding-left: 18px;
     font-size: 1.6rem;
     font-weight: 700;
     color: #FDD73E;
-    text-align: left;
+    text-align: left;}
+
+.panel--card{
+    position: relative;
+    width: 282px;
+    max-width: 813px;
+    height: 84px;
+    display: flex;
+    margin-left: 14px;
+    margin-top: 38px;
+
+    border: 1px solid var(--fontTitle);
+    border-radius: 10px;
+
+} 
+.panel--card .arrow-icon{
+    background-image: url(/assets/ico/right-arrow.png);
+    position:absolute;
+    width:12px;
+    height: 24px;
+    top:25px;
+    right: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+.panel--img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.panel--img img{
+    width:90px;
+    max-width: 257px;
+    height: auto;}
+
+.panel--txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    }
+
+.panel--txt p{
+    width: 180px;
+    height: auto;
+    font-size: 1.2rem;
+    color:#FFF;
+} 
+.btn-regresar{
+    width: 153px;
+    max-width: 226px;
+    height: 26px;
+    background-color: var(--subtitle);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 31px;
+    
+}
+.btn-regresar a{
+    text-decoration: none;
+    background-color: var(--subtitle);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+}
+/***********            Martes 14           ************/
+.div-icon{
+    width:117px;
+    max-width: 694px;
+    height: 33px;
+    padding-left: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.ico-user img, .ico-location img{
+    width:12px;
+    max-width: 28px;
+    height: 13px;
+}
+.ico-user p, .ico-location p{
+    font-size: 1rem;
+    color: var(--text);
+    text-wrap: nowrap;
+}
+.table{
+    margin-top: 50px;
+    width:267px;
+    max-width: 694px;
+    height: auto;
+
 }
