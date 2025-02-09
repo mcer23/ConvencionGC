@@ -354,13 +354,70 @@ footer{
     margin-bottom: 9px;
 }
 .btn_regresar{
+    width:153px;
+    max-width: 226px;
+    height: 26px;
+    border-radius: 13px;
+    background-color: #3045FF;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_salir{
     color: #3045FF;
     font-weight: 700;
     font-size: 1rem;
     text-align: center;
 }
-.btn_regresar:hover{
+.btn_salir:hover{
     color: #FDD73E;
 }
+/***********            Miercoles 15           ************/
+.info-panel{
+    width:271px;
+    max-width: 832px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-1{
+    border: 1px solid #3045FF;
+}
+
+.panel--img{
+    display: flex;
+    flex-direction: row;
+}
+.img-panel{
+    width: 60px;
+    max-width: 154px;
+    height: auto;
+    border: none;
+    display: flex;
+}
+.img-panel img{
+    width: 32px;
+    max-width: 97px;
+    height: 32px;
+    justify-content: center;
+   
+}
+.img-panel p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+.panel--person-name{
+    color: #FFF;
+    font-weight: 700;
+}
+.panel--person-position{color: #B2B2B2;}
+    
+    
+
+
+
 
 
