@@ -251,6 +251,9 @@ footer{
     text-align: center;
 }
 /***********            Martes 14           ************/
+.carousel--desktop{
+    display: none;
+}
 .div-icon{
     width:117px;
     max-width: 694px;
@@ -329,6 +332,35 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.botones--dias{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn_siguiente{
+    width:153px;
+    max-width: 226px;
+    height: 26px;
+    border-radius: 13px;
+    background-color: #3045FF;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 9px;
+}
+.btn_regresar{
+    color: #3045FF;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+.btn_regresar:hover{
+    color: #FDD73E;
 }
 
 
