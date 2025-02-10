@@ -382,38 +382,29 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 18px;
 }
 .panel-1{
     border: 1px solid #3045FF;
+    border-radius: 10px;
+    
 }
-
-.panel--img{
-    display: flex;
-    flex-direction: row;
-}
-.img-panel{
-    width: 60px;
-    max-width: 154px;
-    height: auto;
-    border: none;
-    display: flex;
-}
-.img-panel img{
-    width: 32px;
-    max-width: 97px;
-    height: 32px;
-    justify-content: center;
-   
-}
-.img-panel p{
-    text-align: center;
+.panel-1 p{
     font-size: 0.8rem;
+    padding-left: 10px;
+    
 }
-.panel--person-name{
-    color: #FFF;
+.panel--name{
     font-weight: 700;
+    padding-top: 5px;
 }
-.panel--person-position{color: #B2B2B2;}
+.panel--desc{color: #B2B2B2;}
+
+    
+
+    
+
+
     
     
 
