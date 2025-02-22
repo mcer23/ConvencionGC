@@ -47,14 +47,14 @@ html{
     text-decoration: none;
     margin-left: 15px;
 }
-/* .panel--chatico{
+.panel--chatico{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     position: fixed;
     bottom: 270px;
     right: 50px;
-    z-index: 100; } */
+    z-index: 100; }
 
 .panel--chatico img{
     width: 50px;
