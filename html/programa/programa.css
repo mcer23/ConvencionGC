@@ -350,7 +350,6 @@ footer{
     width: 250px;
     height: auto;
     color: #B2B2B2;}
-
 .panel--img{
     display: flex;
     flex-direction: row;
@@ -391,3 +390,31 @@ footer{
     color: #B2B2B2;
     margin-top: 1px;
 }
+/***********            Jueves 16           ************/
+.info-conferencia{/*! Agrgar max-width*/
+    width: 269px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #FDD73E;
+    border-radius: 10px;
+    margin-left: 21px;
+    margin-bottom: 5px;
+}
+.conferencia--img img{/*! Agrgar max-width*/
+    width: 83px;
+    height: auto;
+    border: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.conferencia--info{
+    margin-left: 5px;
+}
+.conferencia--desc{/*! Agrgar max-width*/
+    width: 165px;
+    height: auto;
+    color: #B2B2B2;
+    font-size: 0.8rem;
+    }
+    
