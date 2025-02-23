@@ -1,5 +1,5 @@
 const usuarios = [
-    { email: "prueba1@example.com", password: "1234" },
+    { email: "prueba@coppel.com", password: "1234" },
     { email: "maria.lopez@example.com", password: "abcd" }
 ];
 document.addEventListener("DOMContentLoaded", () => {
