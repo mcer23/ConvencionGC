@@ -137,6 +137,14 @@ footer{
     
 }
 /* ************        PROGRAMA            *************/
+.navbar-toggler {
+    border: none; /* Elimina el borde del botón */
+    background: transparent; /* Fondo transparente */
+}
+
+.navbar-toggler-icon {
+    background-image: url("../../assets/ico/menu.svg");
+}
 .nav-item{
     border-bottom-color:#B2B2B2;
     border-bottom-style: solid;
@@ -161,9 +169,6 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.navbar-toggler{
-    border: none;
 }
 /* !   arreglar!      */
 .navbar-toggler span{color:  #FDD73E;}
@@ -250,7 +255,85 @@ footer{
     margin: 0 auto;
     text-align: center;
 }
+/* ************        LOGISTICA            *************/
+.menu-option1-title h2{
+    padding-top:20px;
+    padding-left: 18px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #3045FF;
+    text-align: left;}
 
+.menu-logistica{
+    margin-left: 18px;
+    color: #FFF;
+    text-align: left;
+    font-size: 1rem;
+}
+.info--title th, .info--pasajeros th{
+    font-weight: 700;
+}
+
+.info--title th,.info--info td{
+    width:79px;
+    max-width: 159px;
+    height: auto;
+}  
+.nombre-pasajeros{
+    width:320px;
+    height: auto;
+    text-wrap: nowrap;
+}
+.proveedor-msj{
+    width:320px;
+    height: auto;
+}
+.div-icon{
+    width:117px;
+    max-width: 694px;
+    height: 33px;
+    padding-left: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.ico-location img{
+    width:12px;
+    max-width: 28px;
+    height: 13px;
+
+}
+.ico-location a{
+    font-size: 1rem;
+    color: var(--text);
+    text-wrap: nowrap;
+    text-decoration: none;
+}
+.content-info{
+    width:289px;
+    height: auto;
+}
+.content-info p{
+    font-size: 1rem;
+    color: #FFF;
+    padding-left: 18px;
+    text-wrap: wrap;
+}
+.menu-option1-title h3{
+    padding-top:20px;
+    padding-left: 18px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;}
+
+.logistica--column td{
+    padding-left: 10px;
+}    
+
+
+
+   
 
 
 
