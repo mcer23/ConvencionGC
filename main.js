@@ -1,6 +1,53 @@
+function login(event)
+{
+    event.preventDefault();
+    let correo = document.getElementById("correo").value;
+    let password = document.getElementById("password").value;
+
+    if(correo==="prueba@coppel.com" && password==="1234"){
+        let loginData={
+            email:correo,
+            expiresAt:Date.now()+24*60*60*1000
+        }
+        localStorage.setItem("userSession", JSON.stringify(loginData)); // Guardar en localStorage
+
+
+
+        window.location="popup.html";
+    }
+    else if (correo!=="prueba@coppel.com"){
+        console.warn("correo incorrecto");
+    }
+    else if (password!=="1234"){
+        console.warn("Contraseña incorrecta");
+    }
+    else{
+        console.error("Datos incorrectos");
+    }
+}
+function sessionCheck(){
+    let session = localStorage.getItem("loginData");
+    if(session){
+        let loginData=JSON.parse(session);
+        let tiempoActual= Date.now();
+        
+        if(tiempoActual < loginData.expiresAt){
+            window.location.href = "popup.html";
+        } else{
+            localStorage.removeItem("userSession");
+        }
+    }
+}
+sessionCheck();
+
+
+
+
+
+
+
 const usuarios = [
-    { email: "prueba@coppel.com", password: "1234" },
-    { email: "maria.lopez@example.com", password: "abcd" }
+    { email: "prueba@coppel.com", password: "1234" }
 ];
 document.addEventListener("DOMContentLoaded", () => {
     // Verificar si el usuario ya ha iniciado sesión
