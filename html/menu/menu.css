@@ -16,6 +16,66 @@ html{
         overflow-x:hidden;
         }
 
+/* ************             PERFIL            *************/
+.main--title h1{
+    margin-top:50px ;
+    margin-left: 18px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #FDD73E;
+    text-align: left;
+} 
+.main--part1 h2 {
+    margin-left: 18px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #3045FF;
+    text-align: left; 
+}
+.main--part2 h2 {
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #3045FF;
+    text-align: left; 
+}
+
+
+.div-part1,.div-part2{
+    margin-left: 18px;
+}
+.div-part1 label, .div-part2 label{
+    color: #FFF;
+    font-size: 1.2rem;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+} 
+.button-container button{
+    width: 126px;
+    max-width: 226px;
+    height: 21px;
+    border-radius: 13px;
+    background-color: #3045FF;
+    color: #FFF;
+    font-size: 1.2rem;
+    border: none;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-container a{
+    color: #3045FF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 
 
 /* ************               HOME            *************/
@@ -31,11 +91,7 @@ html{
     border-bottom-style: solid;
     border-bottom-width: 0.5px;
 }
-.nav--menu .nav-profile{
-    background-image: url(/assets/ico/user.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.nav-profile img{
     width:24px;
     max-width: 33px;
     height: 24px;
