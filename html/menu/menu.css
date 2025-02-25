@@ -246,10 +246,8 @@ footer{
     display: flex;
     margin-left: 14px;
     margin-top: 38px;
-
     border: 1px solid var(--fontTitle);
     border-radius: 10px;
-
 } 
 .panel--card .arrow-icon{
     background-image: url(/assets/ico/right-arrow.png);
@@ -283,6 +281,9 @@ footer{
     }
 
 .panel--txt p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 180px;
     height: auto;
     font-size: 1.2rem;
@@ -320,12 +321,16 @@ footer{
     color: #3045FF;
     text-align: left;}
 
-.menu-logistica{
+.menu-logistica{ /*! agrega max-width*/
+    width: 252px;
+    height: auto;
     margin-left: 18px;
     color: #FFF;
     text-align: left;
     font-size: 1rem;
+    border-collapse: collapse;
 }
+
 .info--title th, .info--pasajeros th{
     font-weight: 700;
 }
@@ -340,10 +345,8 @@ footer{
     height: auto;
     text-wrap: nowrap;
 }
-.proveedor-msj{
-    width:320px;
-    height: auto;
-}
+
+
 .div-icon{
     width:117px;
     max-width: 694px;

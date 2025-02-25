@@ -1,45 +1,38 @@
-document.addEventListener("DOMContentLoaded", function (){
-  function checkpopup(){
-    let session= localStorage.getItem("usersession");
-    if(!session){
-      window.location="index.html";
-      return;
-    }
-    let loginData=JSON.parse(session);
-    let tiempoActual=Date.now();
+document.addEventListener("DOMContentLoaded", function () {
+  const btn1 = document.querySelector(".btn1");
+  const btn2 = document.querySelector(".btn2");
+  const checkbox1 = document.querySelector("#check1");
+  const checkbox2 = document.querySelector("#check2");
+  const proceedButton = document.querySelector("#proceed");
 
-    if(tiempoActual > loginData.expiresAt){
-      localStorage.removeItem("usersession");
-      window.location= "index.html";
-    }
-    if(localStorage.getItem("perfilOk")){
-      document.getElementById("checkPerfil").style.display="inline";
-    }
-    if(localStorage.getItem("panelesOk")){
-      document.getElementById("checkPaneles").style.display="inline";
-    }
-    
-  
+  // Verificar si ya se confirmó anteriormente
+  if (localStorage.getItem("popupConfirmed")) {
+      window.location.href = "perfil.html"; // Redirigir directamente
   }
-  checkpopup();
 
-  document.getElementById("btn1").addEventListener("click", function () {
-    localStorage.setItem("perfilOk", "true");
+  let btn1Clicked = false;
+  let btn2Clicked = false;
+
+  btn1.addEventListener("click", function () {
+      btn1Clicked = true;
+      checkbox1.checked = true;
   });
 
-  document.getElementById("btn2").addEventListener("click", function () {
-    localStorage.setItem("panelesOk", "true");
+  btn2.addEventListener("click", function () {
+      btn2Clicked = true;
+      checkbox2.checked = true;
   });
 
-  document.querySelector(".popup-continuar a").addEventListener("click", function () {
-    if (localStorage.getItem("perfilOk") && localStorage.getItem("panelesOk")) {
-        localStorage.setItem("userContinue", "true");
-        window.location = "home.html";
-    } else {
-        alert("Por favor, revisa ambos pasos antes de continuar.");
-    }
+  proceedButton.addEventListener("click", function () {
+      if (btn1Clicked && btn2Clicked) {
+          localStorage.setItem("popupConfirmed", "true");
+          window.location.href = "perfil.html"; // Redirigir
+      } else {
+          alert("Necesitas confirmar ambos datos");
+      }
   });
 });
+
 
 
 
