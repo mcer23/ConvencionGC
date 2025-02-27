@@ -1,5 +1,6 @@
 :root{
     --fontTitle:#FDD73E;
+    --btn:#3045FF;
     --subtitle:#3045FF;
     --text:#FFF;}
 
@@ -293,7 +294,7 @@ footer{
     width: 153px;
     max-width: 226px;
     height: 26px;
-    background-color: var(--subtitle);
+    background-color: #3045FF;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -304,7 +305,7 @@ footer{
 }
 .btn-regresar a{
     text-decoration: none;
-    background-color: var(--subtitle);
+    background-color: #3045FF;
     color: #FFF;
     text-align: center;
     font-size: 1.2rem;

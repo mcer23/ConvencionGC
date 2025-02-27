@@ -63,6 +63,11 @@ html{
 .profile-info{
         margin-top: 11px;
 }
+.profile-info p{
+        font-size: 1.4rem;
+        color: #FDD73E;
+        text-align: left;
+}
 .div-part1,.div-part2{
         margin-left: 18px;
 }
