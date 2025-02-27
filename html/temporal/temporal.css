@@ -72,6 +72,7 @@ html{
 }
 .button-container{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
@@ -87,6 +88,16 @@ html{
         border: none;
         margin-bottom: 10px;
         
+}
+.button-container a{
+        color: #3045FF;
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: center;
+
+}
+.button-container a:hover{
+        color: #FDD73EFF;
 }
 footer{
         position: relative;
@@ -110,6 +121,9 @@ footer{
         
 }
 /*************  Paneles  ***********/  
+.main_chatico{
+        background-color: transparent;
+}
 .panel--chatico{
         display: flex;
         justify-content: flex-end;
