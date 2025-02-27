@@ -60,20 +60,22 @@ html{
         color: #FFF;
         text-align: left; 
 }
-.profile-info{
-        margin-top: 11px;
-}
-.profile-info p{
-        font-size: 1.4rem;
-        color: #FDD73E;
-        text-align: left;
-}
+
+
 .div-part1,.div-part2{
         margin-left: 18px;
 }
 .div-part1 label, .div-part2 label{
         color: #FFF;
         font-size: 1.2rem;
+}
+.part2--txt p{
+        margin-top: 10px;
+        margin-left: 18px;
+        font-size: 1.2rem;
+        color: #FDD73E;
+        text-align: left;
+
 }
 .button-container{
         display: flex;

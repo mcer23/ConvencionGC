@@ -2,7 +2,10 @@
 document.addEventListener("DOMContentLoaded", function () {
     const editButton = document.querySelector("#editButton");
     const saveButton = document.querySelector("#saveButton");
-    const inputs = document.querySelectorAll(".profile-info input");
+
+    // Seleccionar solo los inputs con los id específicos
+    const editableInputs = ["nombre", "apellidoP", "apellidoM"];
+    const inputs = editableInputs.map(id => document.getElementById(id));
 
     // Cargar datos almacenados
     inputs.forEach(input => {
@@ -12,13 +15,20 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // Evento para botón Editar
     editButton.addEventListener("click", function () {
         inputs.forEach(input => input.removeAttribute("disabled"));
         editButton.style.display = "none";
         saveButton.style.display = "inline-block";
     });
 
+    // Evento para botón Guardar
     saveButton.addEventListener("click", function () {
+        // Quitamos el color de fondo
+        nombre.style.background = "";
+        apellidoP.style.background = "";
+        apellidoM.style.background = "";
+        
         inputs.forEach(input => {
             localStorage.setItem(input.id, input.value);
             input.setAttribute("disabled", "true");
@@ -26,8 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         editButton.style.display = "inline-block";
         saveButton.style.display = "none";
+
+        alert("Datos guardados correctamente");
     });
 });
+
 /*  Paneles   */
 document.addEventListener("DOMContentLoaded", function () {
     const submitButton = document.querySelector("#submitButton");
