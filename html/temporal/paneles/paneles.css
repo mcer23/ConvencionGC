@@ -21,8 +21,8 @@ html{
     justify-content: flex-end;
     align-items: flex-end;
     position: fixed;
-    bottom: 182px;
-    right: 55px;
+    bottom: 10px;
+    right: 10px;
     z-index: 100;}
 
 .chatico img{
