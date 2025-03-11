@@ -206,12 +206,19 @@ footer{
     max-width: 28px;
     height: 13px;
 }
-.ico-user p, .ico-location a{
+.ico-user p{
     font-size: 1rem;
     color: var(--text);
     text-wrap: nowrap;
     text-decoration: none;
 }
+.ico-location a{
+    font-size: 1rem;
+    color: var(--text);
+    text-wrap: nowrap;
+    text-decoration: underline;
+}
+
 .table--content{
     margin-top: 30px;
     width:267px;

@@ -227,12 +227,9 @@ footer{
     flex-direction: row;
     justify-content: center;
 }
-/* !   arreglar!      */
-.navbar-toggler span{color:  #FDD73E;}
     
-
 .menu-option1-title h1{
-    padding-top:20px ;
+    padding-top: 20px;
     padding-left: 18px;
     font-size: 1.6rem;
     font-weight: 700;
@@ -279,7 +276,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin:10px;
-    }
+}
 
 .panel--txt p{
     display: flex;
@@ -290,6 +287,9 @@ footer{
     font-size: 1.2rem;
     color:#FFF;
 } 
+.info-middle{
+    color: #B2B2B2;
+}
 .btn-regresar{
     width: 153px;
     max-width: 226px;
@@ -315,7 +315,6 @@ footer{
 }
 /* ************        LOGISTICA            *************/
 .menu-option1-title h2{
-    padding-top:20px;
     padding-left: 18px;
     font-size: 1.2rem;
     font-weight: 700;
@@ -346,6 +345,9 @@ footer{
     height: auto;
     text-wrap: nowrap;
 }
+.proveedor-msj td{
+    color: #B2B2B2;
+}
 
 
 .div-icon{
@@ -353,7 +355,6 @@ footer{
     max-width: 694px;
     height: 33px;
     padding-left: 18px;
-    margin-bottom: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -379,10 +380,16 @@ footer{
     padding-left: 18px;
     text-wrap: wrap;
 }
-.menu-option1-title h3, .menu-option1-title p{
-    padding-top:20px;
+.menu-option1-title h3{
     padding-left: 18px;
     font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+}
+.menu-option1-title h4{
+    padding-left: 18px;
+    font-size: 1rem;
     font-weight: 700;
     color: #fff;
     text-align: left;}

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const saveButton = document.querySelector("#saveButton");
 
     // Seleccionar solo los inputs con los id específicos
-    const editableInputs = ["nombre", "apellidoP", "apellidoM"];
+    const editableInputs = ["nombreColab", "apellidoPColab", "apellidoMColab"];
     const inputs = editableInputs.map(id => document.getElementById(id));
 
     // Cargar datos almacenados
