@@ -16,8 +16,29 @@ html{
         font-family: "Inter", serif;
         overflow-x:hidden;
         }
+.body{
+    width:100%;
+    height: auto;
+}        
+
+.panel--chatico{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    background-color: transparent;
+    bottom:90%;
+    right: 60px;
+    z-index: 100; 
+
+} 
+.panel--chatico img{
+    width: 50px;
+    height: 50px;}
+       
 
 /* ************             PERFIL            *************/
+
 .main--title h1{
     margin-top:50px ;
     margin-left: 18px;
@@ -178,6 +199,7 @@ html{
 .menu-home-ico a{ text-decoration: none;}
 
 footer{
+    height: auto;
     position: relative;
     text-align: center;
     padding-top: 50px;
@@ -322,7 +344,7 @@ footer{
     color: #3045FF;
     text-align: left;}
 
-.menu-logistica{ /*! agrega max-width*/
+.menu-logistica{
     width: 252px;
     height: auto;
     margin-left: 18px;
@@ -330,6 +352,7 @@ footer{
     text-align: left;
     font-size: 1rem;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 .info--title th, .info--pasajeros th{
@@ -337,9 +360,9 @@ footer{
 }
 
 .info--title th,.info--info td{
-    width:79px;
-    max-width: 159px;
+    width:33%;
     height: auto;
+    padding: 2px;
 }  
 .nombre-pasajeros{
     width:320px;
