@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let nombre = document.getElementById("nombre");
     let apellidoP = document.getElementById("apellidoP");
     let apellidoM = document.getElementById("apellidoM");
+    let numeroWA = document.getElementById("numeroWA");
 
     // Evento para el botón Editar
     editButton.addEventListener("click", function () {
@@ -33,11 +34,13 @@ document.addEventListener("DOMContentLoaded", function () {
         nombre.disabled = true;
         apellidoP.disabled = true;
         apellidoM.disabled = true;
+        numeroWA.disabled= true;
 
         // Quitamos el color de fondo
         nombre.style.background = "";
         apellidoP.style.background = "";
         apellidoM.style.background = "";
+        numeroWA.style.background ="";
 
         // Mostramos de nuevo el botón Editar y ocultamos Guardar
         editButton.style.display = "block";

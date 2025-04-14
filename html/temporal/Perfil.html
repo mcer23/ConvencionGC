@@ -44,6 +44,14 @@
                     <label for="region">Región</label>
                     <input type="text" id="region" value="Norte" disabled>
                 </div>
+                <div class="column div-part1">
+                    <input type="checkbox" id="mensajeWA" onchange="togglePhoneInput()">
+                    <p>Acepto recibir notificaciones a través de Whatsapp</p>
+                </div>
+                <div class="column div-part1">
+                    <label for="numeroWA">Celular</label>
+                    <input type="tel" id="numeroWA" minlength="10" disabled>
+                </div>
             </div>
             
         </div>
@@ -66,8 +74,10 @@
                 </div>
             </div>
             <div class="part2--txt">
-                <p>Para editar la información de su pareja, es necesario actualizar su hoja azul.</p>
+                <p>Para editar la información de su pareja, es necesario actualizar su hoja de vida.</p>
             </div>
+            
+
         </div>
         <div class="button-container">
             <button id="editButton">Editar</button>

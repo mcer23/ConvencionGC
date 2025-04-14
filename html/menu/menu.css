@@ -67,10 +67,11 @@ html{
 .div-part1,.div-part2{
     margin-left: 18px;
 }
-.div-part1 label, .div-part2 label{
+.div-part1 label, .div-part2 label, .div-part1 p{
     color: #FFF;
     font-size: 1.2rem;
 }
+.div-part1 p
 .button-container{
     display: flex;
     flex-direction: column;
