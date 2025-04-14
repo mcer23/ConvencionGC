@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const errorCorreo = document.getElementById("error-correo");
         const errorPassword = document.getElementById("error-password");
 
-        const correoCorrecto = "prueba@coppel.com";
+        const correoCorrecto = "prueba@gmail.com";
         const passwordCorrecta = "1234";
 
         let valid = true;
