@@ -200,6 +200,7 @@ html{
 .menu-home-ico a{ text-decoration: none;}
 
 footer{
+    width: 100%;
     height: auto;
     position: relative;
     text-align: center;
