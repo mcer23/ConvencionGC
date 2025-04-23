@@ -16,20 +16,6 @@ html{
         overflow-x:hidden;}
         
 /*************  Mobile first    ***********/
-.chatico{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 100;}
-
-.chatico img{
-    width: 38px;
-    max-width: 61px;
-    height: auto;
-    background-color: transparent;} 
 
 .main--title h1{
     margin-top:50px ;
@@ -59,13 +45,11 @@ html{
   
 .chatico img{
     width: 38px;
-    max-width: 61px;
     height: auto;}
 
 .panel--card{
     position: relative;
     width:300px;
-    max-width: 813px;
     height: 130px;
     display: flex;
     margin: 10px 18px;}
@@ -90,7 +74,6 @@ html{
 }
 .panel--img img{
     width:90px;
-    max-width: 257px;
     height: auto;}
 
 .panel--txt{
@@ -121,7 +104,6 @@ html{
 
 .div-enlaces {
     width: 126px;
-    max-width: 226px;
     height: 21px;
     border-radius: 13px;
     background-color: #3045FF;
@@ -131,7 +113,6 @@ html{
 }
 .div-enlaces a{
     width: 126px;
-    max-width: 226px;
     height: 21px;
     border-radius: 13px;
     background-color: #3045FF;
@@ -143,27 +124,82 @@ html{
     justify-content: center;
     align-items: center;
 } 
-       
+
+@media(min-width:1024px){
+    .main--title h1{
+        margin-top:142px ;
+        margin-left: 110px;
+        font-size: 2rem;
+        text-wrap: nowrap;}
+     
+    .main--title p{
+        width: 1029px;
+        margin-left: 110px;
+        font-size: 1.8rem;
+        margin-bottom: 58px;
+        text-wrap: nowrap;}
+
+    .panel--container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            padding: 1rem;
+          }    
     
-footer{
-        position: relative;
-        text-align: center;
-        padding-top: 50px;}
+    
+    .panel--card{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;}
         
 
+    .panel--img img{
+        width:148px;
+        height: auto;}
+    
 
-.footer_txt{
-        position: absolute;
-        top:50%;
-        left: 25%;}
-        
-        
+    .panel--txt {
+            padding-top: 1rem;
+          }
 
-.footer_txt p{
-        font-size: 1.4rem;
-        font-weight: 700;
-        text-align: center;
-        line-height: 0.5;} 
+    .panel--txt p{
+            width: 273px;
+            height: auto;
+        }
+        
+    .card-title{
+            font-size: 1.6rem;
+            text-align: center;}
+        
+    .card-text{
+            font-size: 1.4rem;
+            text-wrap: wrap;
+            text-align: center;}
+        
+    .card-subtitle{
+            font-size: 1.6rem;
+            text-align: center;}
+        
+    .div-enlaces {
+            width: 257px;
+            height: 43px;
+            border-radius: 21px;
+            background-color: #3045FF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 304px;
+        }
+        .div-enlaces a{
+            width: 257px;
+            height: 43px;
+            border-radius: 21px;
+            font-size: 1.8rem;
+        } 
+
+}
+       
         
    
    
