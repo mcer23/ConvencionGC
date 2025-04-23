@@ -196,7 +196,7 @@ body{
 
 
 /*************  Desktop    ***********/
-@media (min-width:1279px){
+@media (min-width:1024px){
 
         body{
                 background-image: url(assets/img/bg_desktop.png);

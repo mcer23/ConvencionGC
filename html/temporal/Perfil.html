@@ -18,48 +18,54 @@
       </div>
         <section class="main--part1">
           <h2>Colaborador</h2>
-          <div class="container">
-            <div class="row profile-info">
-                <div class="column div-part1">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombreColab" value="Juan" disabled>
-                </div>
-                <div class="column div-part1">
-                    <label for="apellidoP">Apellido Paterno</label>
-                    <input type="text" id="apellidoPColab" value="Pérez" disabled>
-                </div>
-                <div class="column div-part1">
-                    <label for="apellidoM">Apellido Materno</label>
-                    <input type="text" id="apellidoMColab" value="López" disabled>
-                </div>
-                <div class="column div-part1">
-                    <label for="puesto">Puesto</label>
-                    <input type="text" id="puesto" value="Director" disabled>
-                </div>
-                <div class="column div-part1">
-                    <label for="centro">Centro</label>
-                    <input type="text" id="centro" value="Centro ABC" disabled>
-                </div>
-                <div class="column div-part1">
-                    <label for="region">Región</label>
-                    <input type="text" id="region" value="CLCN" disabled>
-                </div>
-                <div class="column div-part1">
-                    <input type="checkbox" id="mensajeWA" onchange="togglePhoneInput()">
-                    <p>Acepto recibir notificaciones a través de Whatsapp</p>
-                </div>
-                <div class="column div-part1">
-                    <label for="numeroWA">Celular</label>
-                    <input type="tel" id="numeroWA" minlength="10" disabled>
+            <div class="container containter--part1">
+                <div class="row profile-info">
+                    <div class="row row-top">
+                        <div class="column div-part1">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombreColab" value="Juan" disabled>
+                        </div>
+                        <div class="column div-part1">
+                            <label for="apellidoP">Apellido Paterno</label>
+                            <input type="text" id="apellidoPColab" value="Pérez" disabled>
+                        </div>
+                        <div class="column div-part1">
+                            <label for="apellidoM">Apellido Materno</label>
+                            <input type="text" id="apellidoMColab" value="López" disabled>
+                        </div>
+                    </div>
+                    
+                    <div class="row profile-info row-middle">
+                        <div class="column div-part1">
+                            <label for="puesto">Puesto</label>
+                            <input type="text" id="puesto" value="Director" disabled>
+                        </div>
+                        <div class="column div-part1">
+                            <label for="centro">Centro</label>
+                            <input type="text" id="centro" value="Centro ABC" disabled>
+                        </div>
+                        <div class="column div-part1">
+                            <label for="region">Región</label>
+                            <input type="text" id="region" value="CLCN" disabled>
+                        </div>
+                        <div class="row profile-info row-bottom">
+                            <div class="column div-part1">
+                                <input class="" type="checkbox" id="mensajeWA" onchange="togglePhoneInput()">
+                                <p>Acepto recibir notificaciones a través de Whatsapp</p>
+                            </div>
+                            <div class="column div-part1">
+                                <label for="numeroWA">Celular</label>
+                                <input type="tel" id="numeroWA" minlength="10" disabled>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-        </div>
         </section>
         <section class="main--part2">
           <h2>Pareja</h2>
           <div class="container">
-            <div class="row profile-info">
+            <div class="row profile-info row-top">
                 <div class="column div-part2">
                     <label for="nombrePareja">Nombre</label>
                     <input type="text" id="nombrePareja" value="ANA LUISA" disabled>
@@ -86,14 +92,6 @@
         </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <img src="../../assets/ico/footer_mobile.png" alt="">
-            <div class="footer_txt">
-                <p class="footer_txt_white" style="color: #FFF">Usa</p><p class="footer_txt_yellow" style="color: #FDD73E;"> #Convencion2025 </p><p class="footer_txt_white" style="color: #FFF"> en tus redes sociales</p>
-            </div>
-        </div>
-    </footer>
 
     <script src="temporal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
