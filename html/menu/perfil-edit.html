@@ -18,40 +18,49 @@
       </div>
         <section class="main--part1">
           <h2>Colaborador</h2>
-          <div class="container">
+          <div class="container containter--part1">
             <div class="row profile-info">
-                <div class="column div-part1">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" value="Juan" disabled>
+                <div class="row row-top">
+                    <div class="column div-part1">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" value="Juan" disabled>
+                    </div>
+                    <div class="column div-part1">
+                        <label for="apellidoP">Apellido Paterno</label>
+                        <input type="text" id="apellidoP" value="Pérez" disabled>
+                    </div>
+                    <div class="column div-part1">
+                        <label for="apellidoM">Apellido Materno</label>
+                        <input type="text" id="apellidoM" value="López" disabled>
+                    </div>
                 </div>
-                <div class="column div-part1">
-                    <label for="apellidoP">Apellido Paterno</label>
-                    <input type="text" id="apellidoP" value="Pérez" disabled>
+                <div class="row profile-info row-middle">
+                    <div class="column div-part1">
+                        <label for="puesto">Puesto</label>
+                        <input type="text" id="puesto" value="Director" disabled>
+                    </div>
+                    <div class="column div-part1">
+                        <label for="centro">Centro</label>
+                        <input type="text" id="centro" value="Centro ABC" disabled>
+                    </div>
+                    <div class="column div-part1">
+                        <label for="region">Región</label>
+                        <input type="text" id="region" value="CLCN" disabled>
+                    </div>
+
                 </div>
-                <div class="column div-part1">
-                    <label for="apellidoM">Apellido Materno</label>
-                    <input type="text" id="apellidoM" value="López" disabled>
+                
+                <div class="row profile-info row-bottom">
+                    <div class="column div-part1">
+                        <input type="checkbox" id="mensajeWA" onchange="togglePhoneInput()">
+                        <p>Acepto recibir notificaciones a través de Whatsapp</p>
+                    </div>
+                    <div class="column div-part1">
+                        <label for="numeroWA">Celular</label>
+                        <input type="tel" id="numeroWA" minlength="10" disabled>
+                    </div>
                 </div>
-                <div class="column div-part1">
-                    <label for="puesto">Puesto</label>
-                    <input type="text" id="puesto" value="Director" disabled>
-                </div>
-                <div class="column div-part1">
-                    <label for="centro">Centro</label>
-                    <input type="text" id="centro" value="Centro ABC" disabled>
-                </div>
-                <div class="column div-part1">
-                    <label for="region">Región</label>
-                    <input type="text" id="region" value="CLCN" disabled>
-                </div>
-                <div class="column div-part1">
-                    <input type="checkbox" id="mensajeWA" onchange="togglePhoneInput()">
-                    <p>Acepto recibir notificaciones a través de Whatsapp</p>
-                </div>
-                <div class="column div-part1">
-                    <label for="numeroWA">Celular</label>
-                    <input type="tel" id="numeroWA" minlength="10" disabled>
-                </div>
+                
             </div>
         </div>
         </section>
@@ -62,12 +71,12 @@
         </div>
     </main>
     <footer>
-        <div>
-            <img src="../../assets/ico/footer_mobile.png" alt="">
             <div class="footer_txt">
-                <p class="footer_txt_white" style="color: #FFF">Usa</p><p class="footer_txt_yellow" style="color: #FDD73E;"> #Convencion2025 </p><p class="footer_txt_white" style="color: #FFF"> en tus redes sociales</p>
+                <p style="color: #FFF">Usa</p><p style="color: #FDD73E;"> #Convencion2025 </p><p style="color: #FFF"> en tus redes sociales</p>
             </div>
         </div>
+        <div class="footer-ico">
+            <img src="../../assets/ico/footer-dektop.png" alt="icono footer">
     </footer>
 
     <script src="perfil.js"></script>
