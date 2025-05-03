@@ -13,14 +13,14 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar--line">
+      <nav class="navbar navbar--line">
         <div class="container-fluid navbar--logo">
           <a class="navbar-brand" href="home.html"><img src="/assets/ico/logo_horizontal.png" alt="logo convencion horizontal"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav navbar-menu">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="/html/menu/home.html">Inicio</a>
               </li>
@@ -44,66 +44,77 @@
         </div>
       </nav>
     </header>
-    <main>
-      <section class="main_chatico">
-        <div class="chatico panel--chatico" style="bottom:35%">
-          <a href="https://api.whatsapp.com/send/?phone=528002207735&text=Convencion%20GC&type=phone_number&app_absent=0"><img src="/assets/ico/ico_chat.png" alt="ico_chat"></a>
-        </div>
-      </section>
+    <main class="main--programa">
         <section class="menu-option1-title">
           <h1>Programa</h1>
-          <!-- martes 14 -->
-          <div class="panel--card">
-            <a href="/html/programa/martes14.html">
-                <span class="arrow-icon"></span>
-            </a>
-            <div class="panel--img">
-                <img src="/assets/img/img_concierto.png" class="img-fluid rounded-start" alt="img concierto artistico">
-            </div>
-              <div class="panel--txt">
-                <p class="card-title">Martes 14</p>
-                <p class="card-text">Concierto artístico</p>
+          <div class="panel-card--container">
+            <!-- martes 14 -->
+            <div class="panel--card">
+              <div class="panel--img">
+                  <img src="/assets/img/img_concierto.png" class="img-fluid rounded-start" alt="img concierto artistico">
               </div>
-          </div>
-        <!-- mie 15 -->
-          <div class="panel--card">
-            <a href="/html/programa/mie15.html">
-                <span class="arrow-icon"></span>
-            </a>
-            <div class="panel--img">
+              <div class="panel--txt">
+                  <h3 class="card-title">Martes 14</h3>
+                  <p class="card-text">Concierto artístico</p>
+              </div>
+              <div class="card-arrow">
+                <a href="/html/programa/martes14.html">
+                  <span class="arrow-icon"></span>
+                </a>
+              </div>
+            </div>  
+              
+            <!-- mie 15 -->
+            <div class="panel--card">   
+              <div class="panel--img">
                 <img src="/assets/img/img_sesion.png" class="img-fluid rounded-start" alt="img sesión de trabajo">
-            </div>
-                <div class="panel--txt">
-                  <p class="card-title">Miércoles 15</p>
+              </div>
+              <div class="panel--txt">
+                  <h3 class="card-title">Miércoles 15</h3>
                   <p class="card-text">Sesión de trabajo</p>
-                </div>
-          </div>
-          <!-- Jue 16 -->
-          <div class="panel--card">
-            <a href="/html/programa/jue16.html">
-                <span class="arrow-icon"></span>
-            </a>
-            <div class="panel--img">
-                <img src="/assets/img/img_clausura.png" class="img-fluid rounded-start" alt="img clausura">
+              </div> 
+              <div class="card-arrow">
+                <a href="/html/programa/mie15.html">
+                    <span class="arrow-icon icon--"></span>
+                </a>
+              </div> 
+            </div>   
+            
+            <!-- Jue 16 -->
+            <div class="panel--card">  
+                 
+              <div class="panel--img">
+                    <img src="/assets/img/img_clausura.png" class="img-fluid rounded-start" alt="img clausura">
+              </div>
+              <div class="panel--txt">
+                    <h3 class="card-title">Jueves 16</h3>
+                    <p class="card-text">Clausura</p>
+              </div>
+              <div class="card-arrow">
+                <a href="/html/programa/jue16.html">
+                    <span class="arrow-icon"></span>
+                </a>
+              </div>
             </div>
-                <div class="panel--txt">
-                  <p class="card-title">Jueves 16</p>
-                  <p class="card-text">Clausura</p>
-                </div>
-          </div>
-          <div class="btn-regresar">
-            <a href="home.html">Regresar</a>
+          </div>   
+        </section>
+        <div class="btn-regresar">
+          <a href="home.html">Regresar</a>
+        </div>
+        <section class="main_chatico">
+          <div class="chatico panel--chatico">
+            <a href="https://api.whatsapp.com/send/?phone=528002207735&text=Convencion%20GC&type=phone_number&app_absent=0">
+            <img src="/assets/ico/ico_chat.png" alt="ico_chat"></a>
           </div>
         </section>
-
     </main>
     <footer>
-      <div>
-          <img src="/assets/ico/footer_mobile.png" alt="">
-          <div class="footer_txt">
-              <p class="footer_txt_white" style="color: #FFF">Usa</p><p class="footer_txt_yellow" style="color: #FDD73E;"> #Convencion2025 </p><p class="footer_txt_white" style="color: #FFF"> en tus redes sociales</p>
-          </div>
+      <div class="footer_txt">
+          <p style="color: #FFF">Usa</p><p style="color: #FDD73E;"> #Convencion2025 </p><p style="color: #FFF"> en tus redes sociales</p>
       </div>
+      <div class="footer-ico">
+        <span class="ico-footer"></span>
+      </div>    
     </footer>
 
     

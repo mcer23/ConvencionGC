@@ -9,28 +9,26 @@
         margin:0;
         padding:0;
         background-color: #2E2E2E;}
-      
-    
+       
 html{
-        font-size: 62.5%;
-        font-family: "Inter", serif;
-        overflow-x:hidden;
-        }
-.body{
+    font-size: 62.5%;
+    font-family: "Inter", serif;
+    overflow-x:hidden;}
+        
+body{
     width:100%;
     height: auto;
-}
+    display: flex;
+    flex-direction: column;}
+
 /* ************          Chatico            *************/        
 
 .panel--chatico {
-    position: fixed;
-    bottom: 20px; 
-    right: 20px;  
-    z-index: 100;
+    bottom: 40px;
+    right: 40px; 
+    z-index: 999;
     background-color: transparent;  }
     
-
-
 .panel--chatico img {
     width: 40px;
     height: 40px;
@@ -38,8 +36,6 @@ html{
 
 .panel--chatico img:hover {
     transform: scale(1.1);}
-
-       
 
 /* ************    PERFIL-EDIT            *************/
 
@@ -59,7 +55,6 @@ html{
     color: #3045FF;
     text-align: left; }
 
-
 .div-part1{
     margin-left: 18px;
     margin-bottom: 10px;}
@@ -67,7 +62,6 @@ html{
 .div-part1 label, .div-part1 p{
     color: #FFF;
     font-size: 1.2rem;}
-
 
 .button-container{
     display: flex;
@@ -123,7 +117,6 @@ footer{
     justify-content: center;
     text-align: center; }  
     
-
 .footer_txt p{
     font-size: 1.4rem;
     font-weight: 700;
@@ -131,21 +124,17 @@ footer{
     line-height: 0.5;
     background-color: transparent;}
     
-
 .footer-ico {
     background-color: transparent;
     position: absolute;
     bottom: 35%;
-    right: -35%;
+    left: 80%;
     width: 50%;
     overflow: hidden;}
-
-.footer-ico img {
-        background-color: transparent;
-        width: 101px;
-        height: auto;
-        transform: translateX(50%); }
-
+.ico-footer{
+    content: url(/assets/ico/footer-dektop.png);
+    width:132px;
+    height: auto;}
 
 /* ************               HOME            *************/
 .nav--menu{
@@ -164,48 +153,41 @@ footer{
     max-width: 33px;
     height: 24px;}
     
-
 .nav--menu a{
     color: #FDD73E;
     font-size: 1.2rem;
     text-decoration: none;
-    margin-left: 15px;
-}   
-
-
+    margin-left: 15px;}
+   
 .portada--home{
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 35% 70%;
     padding-top: 30px;
     align-self: center;
-    justify-content: center;
-}   
+    justify-content: center;}
+   
 .portada-derecha, .portada-izquierda{
     width:160px;
-    height: 117px;
-}
+    height: 117px;}
 
 .titleMobile h1{
     display: block;
     color: #FFF;
     font-size: 1.2rem;
-    margin-left: 50px;
-}
-.titleDesktop h1{
-    display: none;
-}
+    margin-left: 50px;}
 
+.titleDesktop h1{display: none;}
+    
 .portada-derecha img{
     width: 116px;
     max-width: 216px;
-    height: 112px;
-}
+    height: 112px;}
 
 .portada-izquierda img{
     width:72px;
     height: 14px;
-    margin-left: 50px;
-}
+    margin-left: 50px;}
+
 .menu--home{
     width:320px;
     max-width: 1280px;
@@ -213,148 +195,126 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 44px;
-}
+    margin-top: 44px;}
+
 .menu-home-ico{
     width:66px;
     max-width: 136px;
     height: 89px;
-    margin-left: 60px;
-}
+    margin-left: 60px;}
+
 .menu-home-ico img{
     width:66px;
     max-width: 117px;
-    height: 66px;
-}
+    height: 66px;}
+
 .menu-home-ico p{
     color: #FFF;
     font-size: 1.2rem;
     padding-top: 8px;
-    text-align: center;
-}
+    text-align: center;}
+
 .menu-home-ico a{ text-decoration: none;}
-
-
-/* ************        PROGRAMA            *************/
-.navbar-toggler {
-    border: none; /* Elimina el borde del botón */
-    background: transparent; /* Fondo transparente */
-}
-
-.navbar-toggler-icon {
-    background-image: url("../../assets/ico/menu.svg");
-}
-.nav-item{
-    border-bottom-color:#B2B2B2;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5px;
-}
-.nav-item a{
-    color: #FDD73E;
-    font-size: 1rem;
-    font-weight: 700;}
-    
-
-.nav-item a:hover{color: #FFF;}
+/* ************        header     **************/
 .navbar--line{
-    border-bottom-color:#B2B2B2;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5px;
-}
+    width:100%;
+    height: 44px;
+    border-bottom: 1px solid #B2B2B2;}
 .navbar--logo img{
-    width:176px;
-    max-width: 375px;
-    height: 19px;
+    width:162px;
+    height: auto;}
+.navbar-toggler span{
+    content: url(/assets/ico/menu.svg);
+    width: 24px;
+    height: auto;}
+.nav-item a{
+    font-size: 1.2rem;
+    color: #FDD73E;
+    font-weight: 700;}
+ 
+.nav-item a:hover{color: #FFF;}
+    
+.navbar-collapse{border-bottom: 1px solid #B2B2B2;}
+
+/* ************        PROGRAMA            **************/
+.main--programa{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;}
+
+.menu-option1-title h1{
+    font-size: 1.4rem;
+    color: #FDD73E;
+    font-weight: 700;
+    margin-left: 14px;
+    margin-top: 16px;
+    margin-bottom: 38px;}
+
+.arrow--desktop{display: none;}
+.arrow--mobile{display: block;}
+    
+.panel--card{
+    display: flex;
+    margin-left: 14px;
+    width:282px;
+    height: 84px;
+    border: 1px solid #FDD73E;
+    border-radius: 10px;
+    margin-bottom: 44px;}
+
+.panel--img img{
+    width: 89px;
+    max-width: 203px;
+    height: auto;}
+.panel--txt{
+    width:117px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: var(--text);
+    text-wrap: wrap;
+    margin-left: 35px;}
+.panel--txt h3{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;} 
+
+.panel--txt  p{font-size: 1rem;} 
+    
+.card-arrow .arrow-icon{
+    content: url(/assets/ico/right-arrow.png);
+    width:12px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9px;
+    margin-top: 30px;}
+
+.btn-regresar{
+    width:153px;
+    height: 26px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-    
-.menu-option1-title h1{
-    padding-top: 20px;
-    padding-left: 18px;
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #FDD73E;
-    text-align: left;}
+    background-color: var(--btn);
+    border-radius: 13px;
+    margin:0 auto;}
 
-.panel--card{
-    position: relative;
-    width: 282px;
-    max-width: 813px;
-    height: 84px;
-    display: flex;
-    margin-left: 14px;
-    margin-top: 38px;
-    border: 1px solid var(--fontTitle);
-    border-radius: 10px;
-} 
-.panel--card .arrow-icon{
-    background-image: url(/assets/ico/right-arrow.png);
-    position:absolute;
-    width:12px;
-    height: 24px;
-    top:25px;
-    right: 6px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-    
-.panel--img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.panel--img img{
-    width:90px;
-    max-width: 257px;
-    height: auto;}
-
-.panel--txt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin:10px;
-}
-
-.panel--txt p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 180px;
-    height: auto;
-    font-size: 1.2rem;
-    color:#FFF;
-} 
-.info-middle{
-    color: #B2B2B2;
-}
-.btn-regresar{
-    width: 153px;
-    max-width: 226px;
-    height: 26px;
-    background-color: #3045FF;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 31px;
-    
-}
 .btn-regresar a{
     text-decoration: none;
-    background-color: #3045FF;
-    color: #FFF;
-    text-align: center;
+    color: var(--text);
+    background-color: transparent;
     font-size: 1.2rem;
     font-weight: 700;
-    margin: 0 auto;
     text-align: center;
-}
+    margin-top: 5px;}
+
 /* ************        LOGISTICA            *************/
 .menu-option1-title h2{
     padding-left: 18px;
@@ -391,8 +351,6 @@ footer{
 .proveedor-msj td{
     color: #B2B2B2;
 }
-
-
 .div-icon{
     width:117px;
     max-width: 694px;
@@ -494,10 +452,8 @@ footer{
     
 .div-part1{margin-left: 18px;}
     
-
 .div-part1 label,.div-part1 p{font-size: 1.8rem;}
     
-
 .row {
     display: grid;
     gap: 1rem;
@@ -507,15 +463,13 @@ footer{
     margin-top: 10px;}
   
 .row-top,
-.row-middle {
-    grid-template-columns: repeat(3, 1fr);}
+.row-middle {grid-template-columns: repeat(3, 1fr);}
   
+.row-bottom {grid-template-columns: repeat(2, 1fr);}
+    
   
-.row-bottom {
-    grid-template-columns: repeat(2, 1fr);}
-  
-.row-bottom p{
-    text-wrap: nowrap; }
+.row-bottom p{text-wrap: nowrap; }
+    
 
 .div-part1, .div-part2 {
     display: flex;
@@ -541,9 +495,8 @@ footer{
 
    
     /************   Desktop: FOOTER   **************/
-    footer{
-        min-height: 120px;}
-    
+    footer{min-height: 120px;}
+        
     .footer_txt {
         display: grid;
         grid-auto-flow: column;
@@ -555,15 +508,17 @@ footer{
     .footer-ico {
         background-color: transparent;
         position: absolute;
-        bottom: 20%;
-        right: -30%;
+        bottom: 0;
+        right: 0;
         width: 50%; 
         overflow: hidden;}
-    
-    .footer-ico img {
-            width: 200px;
-            height: auto;
-            transform: translateX(100%); }
+
+    .ico-footer{
+        content: url(/assets/ico/footer-dektop.png);
+        width:251px;
+        height: auto;
+        transform: translateX(70%);}
+            
          
     /* ************    Desktop: HOME    *************/
     .nav--menu{
@@ -579,46 +534,72 @@ footer{
         height: 33px;
         margin-left: 20px;}
         
-
     .nav--menu a{
         font-size: 2rem;
         margin-right: 20px;}
-       
-
+    
+    .titleDesktop h1{
+        display: block;
+        color: var(--text);
+        text-wrap: nowrap;
+        font-size: 3rem;
+        margin-left: 40px;}
+         
+    .titleMobile h1{display: none;}    
     .portada--home{
-        width: 563px;
+        display:grid;
+        grid-template-columns: 60% 40%;
+        padding-top: 30px;
+        margin-left: 20%;
+        align-self: center;
+        justify-content: center;}
+           
+    .portada-derecha, .portada-izquierda{
+        width:160px;
+        height: 117px;}
+    .portada-derecha img{
+        width: 216px;
+        height: 208px;} 
+    .portada-izquierda img{
+        width:196px;
+        height: 39px;
+        margin-left: 50px;}       
+
+            
+        
+        
+        
+            
+    /* .portada--home{
+        width: 320px;
+        max-width: 375px;
         height: auto;
         margin-left: 35%;
         padding-top: 4%;
         display:grid;
         grid-template-columns: 50% 50%; }  
      
-
     .portada-derecha, .portada-izquierda{
-        width:282px;
-        height: 99px;
-    }
-
+        width:160px;
+        height: 99px; }
+   
     .titleDesktop h1{
         display: block;
         color: #FFF;
         text-wrap: nowrap;
         font-size: 3rem;
-        margin-left: 40px;
-    } 
+        margin-left: 40px;}
+     
     .titleMobile h1{display: none;}
         
     .portada-derecha img{
         width: 216px;
-        height: 208px;
-        margin-left: 50px;
-    }
-   
+        height: 208px;}
+    
     .portada-izquierda img{
         width:196px;
-        height: 39px;
-        margin-left: 40px;
-    }
+        height: 39px;} */
+   
     .menu--home{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -627,25 +608,120 @@ footer{
         padding: 1rem;
         margin-top: 12%;
         margin-left: 25%;
-        padding-bottom: 12%;
-    }
+        padding-bottom: 12%;}
+    
     .menu-home-ico{
         display: flex;
         align-items: center;
         justify-content: center;
         width:136px;
-        height: auto;
+        height: auto; }
         
-    }
-    
     .menu-home-ico img{
         width:117px;
-        height: 117px;
-    }
+        height: 117px;}
+    
     .menu-home-ico p{
         font-size: 2rem;
-        padding-top: 12px;
-    }
+        padding-top: 12px;}
+    
+    /* ************        Desktop: header     **************/
+    .navbar--line{
+        width:100%;
+        height: 71px;
+        border-bottom: 1px solid #B2B2B2;}
+    .navbar--logo img{
+        width:311px;
+        height: auto;
+        margin-right: 20px;}
+    .navbar-toggler span{
+        content: url(/assets/ico/menu.svg);
+        width: 33px;
+        height: auto;
+        margin-right: 20px;}
+    .nav-item a{font-size: 1.6rem;}  
+
+    /* *******        Desktop: PROGRAMA    *******/
+    .main--programa{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;}
+    
+    .menu-option1-title h1{
+        font-size: 2rem;
+        margin-left: 143px;
+        margin-top: 39px;
+        margin-bottom: 38px;}
+    .panel-card--container{
+        display: grid;
+        grid-template-columns: repeat(3, 211px); /* 3 columns of 211px each */
+        justify-content: center;
+        gap: 145px;
+        padding: 0 20px;
+    }    
+    .panel--card{
+        display: flex;
+        flex-direction: column;
+        width:211px;
+        height: 351px;
+        border: 1px solid #FDD73E;
+        border-radius: 10px;
+        margin-bottom: 20px;}
+    
+    .panel--img img{
+        width: 203px;
+        height: auto;
+        margin-bottom: 11px;}
+
+    .panel--txt{
+        width:150px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        margin-left: 35px;}
+
+    .panel--txt h3{
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 5px;} 
+    
+    .panel--txt p{
+        font-size: 1.4rem;
+        text-align: center;
+        text-wrap: wrap;
+        padding-bottom: 75px;} 
+        
+    .card-arrow .arrow-icon{
+        content: url(/assets/ico/down_arrow.png);
+        width:38px;
+        height: 20px;
+        display: flex;
+        margin:0 auto;}
+    
+    .btn-regresar{
+        width:226px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: var(--btn);
+        border-radius: 23px;
+        margin:50px auto;}
+    
+    .btn-regresar a{
+        text-decoration: none;
+        color: var(--text);
+        background-color: transparent;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 10px;}
+    
+    
 }
 
 
