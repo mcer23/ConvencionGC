@@ -136,7 +136,7 @@ footer{
     width:132px;
     height: auto;}
 
-/* ************               HOME            *************/
+/* ************               Navbar            *************/
 .nav--menu{
     width:100%;
     height: 44px;
@@ -158,7 +158,7 @@ footer{
     font-size: 1.2rem;
     text-decoration: none;
     margin-left: 15px;}
-   
+/* ************               Home           *************/   
 .portada--home{
     display:grid;
     grid-template-columns: 35% 70%;
@@ -520,7 +520,7 @@ footer{
         transform: translateX(70%);}
             
          
-    /* ************    Desktop: HOME    *************/
+    /* ************    Desktop: navbar    *************/
     .nav--menu{
         width:100%;
         height: 71px;
@@ -537,7 +537,7 @@ footer{
     .nav--menu a{
         font-size: 2rem;
         margin-right: 20px;}
-    
+    /* ************    Desktop: HOME    *************/
     .titleDesktop h1{
         display: block;
         color: var(--text);
