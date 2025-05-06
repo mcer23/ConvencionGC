@@ -452,6 +452,20 @@ footer{
 
 
 /* ************        SORTEO            *************/
+.menu-option3-title h1{
+    font-size: 1.4rem;
+    color: #FDD73E;
+    font-weight: 700;
+    margin-left: 14px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.menu-option3-title p{
+    font-size: 1.2rem;
+    height: auto;
+    color: var(--subtext);
+    margin-left: 18px;
+}
 .qr-section img{
     width:190px;
     height: 190px;
@@ -880,6 +894,44 @@ footer{
     .space-bottom{
         margin-bottom: 52px;
     }
+/* ************    Desktop: SORTEO            *************/
+    .main--sorteo{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        
+    }
+    .menu-option3-title h1{
+        font-size: 2rem;
+        margin-left: 143px;
+        margin-bottom: 20px;
+    }
+    .menu-option3-title p{
+        font-size: 1.6rem;
+        height: auto;
+        margin-left: 143px;
+        margin-bottom: 20px;
+    }
+    .qr-section img{
+        width:299px;
+        height: 299px;
+        display: flex;
+        flex-direction: column;
+        margin:0 auto;
+
+    }
+    .qr-section-ico{
+        width: 137px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-top: 19px;
+    }
+    .qr-section-ico img{
+        width:29px;
+        height: 29px;
+        
+    }    
         
             
         
