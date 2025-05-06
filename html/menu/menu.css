@@ -491,7 +491,6 @@ footer{
 /* ************          Desktop: Chatico  *************/ 
 .panel--chatico {
     position: fixed;
-    bottom: 0;
     right: 50px;  
     z-index: 100;
     background-color: transparent;  }
@@ -627,7 +626,11 @@ footer{
     .portada-izquierda img{
         width:196px;
         height: 39px;
-        margin-left: 50px;}       
+        margin-left: 38px;} 
+
+    .chatico-home{
+        bottom: 0%;
+    }          
    
     .menu--home{
         display: grid;
