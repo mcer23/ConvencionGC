@@ -422,7 +422,7 @@ footer{
     .div-icon{
         width:90%;
         height: 43px;
-        margin-bottom: 3px;
+        margin-bottom: 20px;
         display: flex;
         gap:20%;
         flex-direction: row;
@@ -453,7 +453,9 @@ footer{
         width:676px;
         height: auto;} 
      
-    .content-info p{font-size: 1.6rem;}  
+    .content-info p{font-size: 1.6rem;  } 
+        
+   
 
     .table--content{
         margin-top: 30px;

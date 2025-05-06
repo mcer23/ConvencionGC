@@ -13,14 +13,14 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar--line">
+    <nav class="navbar navbar--line">
       <div class="container-fluid navbar--logo">
         <a class="navbar-brand" href="home.html"><img src="/assets/ico/logo_horizontal.png" alt="logo convencion horizontal"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav navbar-menu">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="/html/menu/home.html">Inicio</a>
             </li>
@@ -44,324 +44,301 @@
       </div>
     </nav>
   </header>
-    <main>
-      <section class="main_chatico">
-        <div class="chatico panel--chatico">
-          <a href="https://api.whatsapp.com/send/?phone=528002207735&text=Convencion%20GC&type=phone_number&app_absent=0"><img src="/assets/ico/ico_chat.png" alt="ico_chat"></a>
+  <main>
+    <section class="main--vuelos">
+        <div class="menu-option2-title">
+            <h1>Vuelos</h1>
+            <h3>Pasajeros</h3>
+                <ul class="info--pasajeros">
+                    <li>Luis Gerardo Manjarrez Lopez</li>
+                    <li>Maria de Jesus Guzman Vizcarra</li>
+                </ul>
+            <h2>Ida</h2>
         </div>
-      </section>
-      <div class="menu-option1-title">
-        <h1>Vuelos</h1>
-        <h2>Ida</h2>
-      </div>
-         <section>  <!-- Vuelo ida-->
-          <table class="menu-logistica">
-              <thead class="logistica--info">
+        <!--Mobile  -->
+        <table class="tabla--vuelos logistica-mobile">  <!--Vuelo de ida-->
+            <thead class="vuelos--info">
                 <tr class="info--title">
-                  <th>Ruta</th>
-                  <th>Fecha</th>
-                  <th>Horario</th>
+                    <th>Ruta</th>
+                    <th>Fecha</th>
+                    <th>Horario</th>
                 </tr>
-              </thead>
-              <tbody>
-                <tr class="info--info">
-                  <td>CUL- GDL</td>
-                  <td>14 ENE 2025</td>
-                  <td>6:48 hrs - 9:22 hrs</td>
-                </tr>
-              </tbody>
-              <thead class="logistica--info">
-                <tr class="info--title">
-                  <th>Aerolinea</th>
-                  <th>No. de vuelo</th>
-                  <th>No. de reserva</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="info--info">
-                  <td>Volaris</td>
-                  <td>Y4 1121</td>
-                  <td>KE23L9</td>
-                </tr>
-              </tbody>
-              <thead class="pasajeros--info">     
-                <tr class="info--pasajeros">
-                  <th>Pasajeros</th>
-                </tr>  
-              </thead>
-              <tbody class="info--pasajeros">
-                <tr class="nombre-pasajeros">
-                  <td>Luis Gerardo Manjarrez Lopez</td>
-                </tr>
-                <tr class="nombre-pasajeros">
-                  <td>Maria de Jesus Guzman Vizcarra</td>
-                </tr>
-              </tbody>
-              <tbody class="pasajeros--msj">
-                <tr class="proveedor-msj">
-                  <td colspan="3">El transporte al hotel los recogerá en la puerta 3 de llegadas. <br> Proveedor: Mexico Planners</td>
-                </tr>
-              </tbody>
-            </div>
-          </table>
-        </section>
-        <section> <!-- Vuelo regreso-->
-          <div class="menu-option1-title">
-            <h2>Regreso</h2>
-          </div>
-          <table class="menu-logistica">
-              <thead class="logistica--info">
-                <tr class="info--title">
-                  <th>Ruta</th>
-                  <th>Fecha</th>
-                  <th>Horario</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>GDL-CUL</td>
-                  <td>17 ENE 2025</td>
-                  <td>15:39 hrs - 16:06 hrs</td>
-                </tr>
-              </tbody>
-              <thead class="logistica--info">
-                <tr class="info--title">
-                  <th>Aerolinea</th>
-                  <th>No. de vuelo</th>
-                  <th>No. de reserva</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Volaris</td>
-                  <td>Y4 1120</td>
-                  <td>KDA12P4</td>
-                </tr>
-              </tbody>
-              <thead class="pasajeros--info">     
-                <tr class="info--pasajeros">
-                  <th>Pasajeros</th>
-                </tr>  
-              </thead>
-              <tbody class="info--pasajeros">
-                <tr class="nombre-pasajeros">
-                  <td>Luis Gerardo Manjarrez Lopez</td>
-                </tr>
-                <tr class="nombre-pasajeros">
-                  <td>Maria de Jesus Guzman Vizcarra</td>
-                </tr>
-              </tbody>
-              <tbody class="pasajeros--msj">
-                <tr class="proveedor-msj" >
-                  <td colspan="3">El transporte al aeropuerto sale 3 horas antes de su vuelo. Para evitar retrasos, por favor, esté en el lobby con su equipaje listo a tiempo. <br> Proveedor: Mexico Planners</td>
-                </tr>
-              </tbody>
-          </table>
-        </section>
-        <section> <!-- Hospedaje-->
-          <div class="menu-option1-title">
-            <h1>Hospedaje</h1>
-          </div>
-          <div class="div-icon">
-            <div class="ico-location">
-              <img src="../../assets/ico/location.png" alt="ico_location">
-              <a href="https://maps.app.goo.gl/qU72rwwX5SgohKj6A"><b>The Westin</b></a>
-            </div>
-          </div>
-          <div class="content-info">
-            <p class="info-middle" style="color:#B2B2B2 ;">Habitación sencilla (1 cama king size), ocupación doble (2 personas)</p>
-          </div>
-          <table class="menu-logistica">
-            <thead class="logistica--hotel">
-              <tr class="logistica--info">
-                <th>Check in</th>
-                <th>Check out</th>
-              </tr>
             </thead>
             <tbody>
-              <tr class="info--info">
-                <td>Martes 14</td>
-                <td>Jueves 17</td>
-              </tr>
-              <tr class="info--info">
-                <td>15:00 hrs</td>
-                <td>11:00 hrs</td>
-              </tr>
+                <tr>
+                    <td>CUL- GDL</td>
+                    <td>14 ENE 2025</td>
+                    <td>6:48 hrs - 9:22 hrs</td>
+                </tr>
+            </tbody>    
+        </table>
+        <table class="tabla--vuelos logistica-mobile">
+            <thead class="vuelos--info">
+                <tr class="info--title">
+                    <th>Aerolinea</th>
+                    <th>No. de vuelo</th>
+                    <th>No. de reserva</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info--info">
+                    <td>Volaris</td>
+                    <td>Y4 1121</td>
+                    <td>KE23L9</td>
+                </tr>
             </tbody>
-          </table>
-        </section>
-        <section> <!-- camiones -->
-          <div class="menu-option1-title">
+        </table>
+        <!--Desktop -->
+        <table class="tabla--vuelos logistica-desktop"><!--Vuelo de ida-->
+            <thead class="vuelos--info">
+                <tr class="info--title">
+                    <th>Ruta</th>
+                    <th>Fecha</th>
+                    <th>Horario</th>
+                    <th>Aerolinea</th>
+                    <th>No. de vuelo</th>
+                    <th>No. de reserva</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info--info">
+                    <td>CUL- GDL</td>
+                    <td>14 ENE 2025</td>
+                    <td>6:48 hrs - 9:22 hrs</td>
+                    <td>Volaris</td>
+                    <td>Y4 1121</td>
+                    <td>KE23L9</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="proveedor-msj">
+            <p>El transporte al hotel los recogerá en la puerta 3 de llegadas. <br> Proveedor: Mexico Planners</p>
+        </div>
+        <div class="menu-option2-title">
+            <h2>Regreso</h2>
+            
+        </div>
+        <table class="tabla--vuelos logistica-mobile">  <!--Vuelo de regreso-->
+            <thead class="vuelos--info">
+                <tr class="info--title">
+                    <th>Ruta</th>
+                    <th>Fecha</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info--info">
+                    <td>GDL-CUL</td>
+                    <td>17 ENE 2025</td>
+                    <td>15:39 hrs - 16:06 hrs</td>
+                </tr>    
+            </tbody>
+        </table>
+        <table class="tabla--vuelos logistica-mobile">  <!--Vuelo de regreso-->
+            <thead class="vuelos--info">
+                <tr class="info--title">
+                    <th>Aerolinea</th>
+                    <th>No. de vuelo</th>
+                    <th>No. de reserva</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Volaris</td>
+                    <td>Y4 1121</td>
+                    <td>KE23L9</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--Desktop -->
+        <table class="menu-logistica logistica-desktop"><!--Vuelo de regreso-->
+            <thead class="vuelos--info">
+                <tr class="info--title">
+                    <th>Ruta</th>
+                    <th>Fecha</th>
+                    <th>Horario</th>
+                    <th>Aerolinea</th>
+                    <th>No. de vuelo</th>
+                    <th>No. de reserva</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info--info">
+                    <td>GDL-CUL</td>
+                    <td>17 ENE 2025</td>
+                    <td>15:39 hrs - 16:06 hrs</td>
+                    <td>Volaris</td>
+                    <td>Y4 1121</td>
+                    <td>KE23L9</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="proveedor-msj">
+            <p>El transporte al aeropuerto sale 3 horas antes de su vuelo. Para evitar retrasos, por favor, esté en el lobby con su equipaje listo a tiempo. <br> Proveedor: Mexico Planners</p>
+        </div>
+    </section> 
+    <section class="main--hospedaje">
+        <div class="menu-option2-title">
+            <h1>Hospedaje</h1>
+        </div>
+        <div class="div-icon">
+            <div class="ico-location">
+              <img src="/assets/ico/location.png" alt="ico_location">
+              <a href="https://maps.app.goo.gl/3FZDhLtu2a94p6SZ8">The Westin</a>
+            </div>
+        </div>
+        <div class="content-info">
+            <p class="info-middle">Habitación sencilla (1 cama king size), ocupación doble (2 personas)</p>
+        </div>
+        <table class="tabla--hospedaje">
+            <thead class="hospedaje--hotel">
+                <tr class="hospedaje--info">
+                    <th>Check in</th>
+                    <th>Check out</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info--info">
+                    <td>Martes 14</td>
+                    <td>Jueves 17</td>
+                </tr>
+                <tr class="info--info">
+                    <td>15:00 hrs</td>
+                    <td>11:00 hrs</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="main--transporte">
+        <div class="menu-option2-title">
             <h1>Transporte eventos</h1>
-            <h4><b>Camión ID: </b>#1</h4>
-          </div>
-          <div class="menu-option1-title">
+            <h3><b>Camión ID: </b>#1</h3>
+        </div>
+        <div class="menu-option2-title">
             <h2>Martes 14</h2>
             <h3>Concierto artístico</h3>
-          </div>
-          <table class="menu-logistica">
+        </div>
+        <table class="tabla--transporte">
             <tbody>
-              <th>
-                <td><b>Ida:</b></td>
-              </th>
-              <div class="logistica--column">
-                <th>
-                  <td>17:40</td>
-                </th>
-                <th>
-                  <td>17:50</td>
-                </th>
-                <th>
-                  <td>18:00</td>
-                </th>
-                <th>
-                  <td>18:10</td>
-                </th>
-              </div>
-              <tr>
-                <th>
-                  <td><b>Regreso:</b></td>
-                </th>
-                <div class="logistica--column">
-                  <th>
-                    <td>21:00</td>
-                  </th>
-                </div>
+              <tr class="info-transporte">
+                <th>Ida:</th>
+                <td>17:40</td>
+                <td>17:50</td>
+                <td>18:00</td>
+                <td>18:10</td>
+              </tr>
+              <tr class="info-transporte">
+                <th>Regreso:</th>
+                <td>21:00</td>
               </tr>
             </tbody>
           </table>
-          <div class="menu-option1-title">
-            <h2>Miércoles 15</h2>
+        <div class="menu-option2-title">
+            <h2>Miercoles 15</h2>
             <h3>Tour de parejas</h3>
-          </div>
-          <table class="menu-logistica">
+        </div>
+        <table class="tabla--transporte">
             <tbody>
-              <th>
-                <td><b>Ida:</b></td>
-              </th>
-              <div class="logistica--column">
-                <th>
-                  <td>9:00</td>
-                </th>
-                <th>
-                  <td> </td>
-                </th>
-              </div>  
-                <th>
-                <td><b>Regreso:</b></td>
-              </th>
-              <div class="logistica--column">
-                <th>
-                  <td>14:00</td>
-                </th>
-              </div>
-            </tbody>
-          </table>
-          <div class="menu-option1-title">
-            <h3>Sesión de trabajo</h3>
-          </div>
-          <table class="menu-logistica">
-            <tbody class="logistica--column">
-              <th>
-                <td><b>Ida:</b></td>
-              </th>
-              <div class="logistica--column">
-                <th>
-                  <td>9:00</td>
-                </th>
-                <th>
-                  <td>9:10</td>
-                </th>
-                <th>
-                  <td>9:20</td>
-                </th>
-              </div>
-              <tr>
-                <th>
-                  <td><b>Regreso:</b></td>
-                </th>
-                <div class="logistica--column">
-                  <th>
-                    <td>14:30</td>
-                  </th>
-                </div>
+              <tr class="info-transporte">
+                <th>Ida:</th>
+                <td>10:00</td>
+              </tr>
+              <tr class="info-transporte">
+                <th>Regreso:</th>
+                <td>13:00</td>
               </tr>
             </tbody>
-          </table>
-          <div class="menu-option1-title">
+        </table>
+        <div class="menu-option2-title">
+            <h3>Sesión de trabajo</h3>
+        </div> 
+        <table class="tabla--transporte">
+            <tbody>
+              <tr class="info-transporte">
+                <th>Ida:</th>
+                <td>9:00</td>
+                <td>9:10</td>
+                <td>9:20</td>
+
+              </tr>
+              <tr class="info-transporte">
+                <th>Regreso:</th>
+                <td>14:30</td>
+              </tr>
+            </tbody>
+        </table>
+        <div class="menu-option2-title">
+            <h3>Cena coctél</h3>
+        </div> 
+        <table class="tabla--transporte">
+            <tbody>
+              <tr class="info-transporte">
+                <th>Ida:</th>
+                <td>19:30</td>
+                <td>19:40</td>
+                <td>19:50</td>
+              </tr>
+              <tr class="info-transporte">
+                <th>Regreso:</th>
+                <td>23:00</td>
+                <td>23:30</td>
+                <td>00:00</td>
+                <td>00:30</td>
+                <td>1:00</td>
+              </tr>
+            </tbody>
+        </table>
+        <div class="menu-option2-title">
             <h2>Jueves 16</h2>
             <h3>Misa</h3>
-          </div>
-          <table class="menu-logistica">
-            <tbody class="logistica--column">
-              <th>
-                <td><b>Ida:</b></td>
-              </th>
-              <div class="logistica--column">
-                <th>
-                  <td>9:30</td>
-                </th>
-                <th>
-                  <td>9:40</td>
-                </th>
-                <th>
-                  <td>9:50</td>
-                </th>
-              </div>
-            </tbody>
-          </table>
-          <div class="menu-option1-title">
-            <h3>Comida clausura</h3>
-          </div>
-          <table class="menu-logistica">
-            <tbody >
-              <th>
-                <td><b>Ida:</b></td>
-              </th>
-              <div class="logistica--column">
-                <th>
-                  <td>14:30</td>
-                </th>
-              </div>  
-                <tr>
-                  <th>
-                    <td><b>Regreso:</b></td>
-                  </th>
-                <div class="logistica--column" >   
-                  <th>
-                    <td> 20:00</td>
-                  </th>
-                  <th>
-                    <td>20:30</td>
-                  </th>
-                  <th>
-                    <td>21:00</td>
-                  </th>
-                  <th>
-                    <td>21:30</td>
-                  </th>
-                  <th>
-                    <td>22:00</td>
-                  </th>
-                </div>   
-                </tr>          
-            </tbody>
-          </table>
-        </section>
-        <div class="btn-regresar">
-          <a href="home.html">Regresar</a>
+            <p>Solo se tendra las rutas:</p>
+            <ul class="transporte--rutas">
+                <li>Hotel sede-Expo Guadajalara</li>
+                <li>Expo Guadajalara-Lago del rey</li>
+                <li>Lago del rey-Hotel sede</li>
+            </ul>
         </div>
-    </main>
-    <footer>
-      <div>
-          <img src="/assets/ico/footer_mobile.png" alt="">
-          <div class="footer_txt">
-              <p class="footer_txt_white" style="color: #FFF">Usa</p><p class="footer_txt_yellow" style="color: #FDD73E;"> #Convencion2025 </p><p class="footer_txt_white" style="color: #FFF"> en tus redes sociales</p>
-          </div>
-      </div>
-    </footer>
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <table class="tabla--transporte">
+            <tbody>
+              <tr class="info-transporte">
+                <th>Ida:</th>
+                <td>9:30</td>
+                <td>9:40</td>
+                <td>9:50</td>
+              </tr>
+              <tr class="info-transporte">
+                <th>Ida:</th>
+                <td>14:30</td>
+              </tr>
+              <tr class="info-transporte">
+                <th>Regreso:</th>
+                <td>20:00</td>
+                <td>20:30</td>
+                <td>21:00</td>
+                <td>21:30</td>
+                <td>22:00</td>
+              </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="main_chatico">
+        <div class="chatico panel--chatico">
+          <a href="https://api.whatsapp.com/send/?phone=528002207735&text=Convencion%20GC&type=phone_number&app_absent=0">
+          <img src="/assets/ico/ico_chat.png" alt="ico_chat"></a>
+        </div>
+    </section>
+    <div class="btn-regresar space-bottom">
+        <a href="home.html">Regresar</a>
+    </div>
+  </main>
+  <footer>
+    <div class="footer_txt">
+        <p style="color: #FFF">Usa</p><p style="color: #FDD73E;"> #Convencion2025 </p><p style="color: #FFF"> en tus redes sociales</p>
+    </div>
+    <div class="footer-ico">
+      <span class="ico-footer"></span>
+    </div>    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -2,7 +2,8 @@
     --fontTitle:#FDD73E;
     --btn:#3045FF;
     --subtitle:#3045FF;
-    --text:#FFF;}
+    --text:#FFF;
+    --subtext:#B2B2B2}
 
 *{
         box-sizing: border-box;
@@ -35,7 +36,7 @@ body{
     background-color: transparent; }
 
 .panel--chatico img:hover {
-    transform: scale(1.1);}
+    transform: scale(1.1);} 
 
 /* ************    PERFIL-EDIT            *************/
 
@@ -316,14 +317,35 @@ footer{
     margin-top: 5px;}
 
 /* ************        LOGISTICA            *************/
-.menu-option1-title h2{
+.logistica-desktop, .pasajeros-desktop{display:none;}
+
+.menu-option2-title h1{
+        font-size: 1.4rem;
+        color: #FDD73E;
+        font-weight: 700;
+        margin-left: 14px;
+        margin-top: 16px;
+        margin-bottom: 15px;}
+.menu-option2-title h2{
     padding-left: 18px;
     font-size: 1.2rem;
     font-weight: 700;
     color: #3045FF;
     text-align: left;}
 
-.menu-logistica{
+.menu-option2-title h3{
+    padding-left: 18px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;} 
+
+.info--pasajeros li{
+    color: var(--text);
+    list-style: none;}
+       
+.logistica-mobile{
+    display: table;
     width: 252px;
     height: auto;
     margin-left: 18px;
@@ -331,75 +353,103 @@ footer{
     text-align: left;
     font-size: 1rem;
     border-collapse: collapse;
-    table-layout: fixed;
-}
+    table-layout: fixed;}
+
 
 .info--title th, .info--pasajeros th{
-    font-weight: 700;
-}
+    font-weight: 700;}
+
 
 .info--title th,.info--info td{
     width:33%;
     height: auto;
-    padding: 2px;
-}  
-.nombre-pasajeros{
-    width:320px;
-    height: auto;
-    text-wrap: nowrap;
-}
-.proveedor-msj td{
+    padding: 2px;}
+
+.proveedor-msj p{
+    margin-left: 18px;
+    padding-top: 10px;
+    width: 80%;
     color: #B2B2B2;
-}
+    font-size: 1rem;}
+
 .div-icon{
     width:117px;
-    max-width: 694px;
     height: 33px;
     padding-left: 18px;
+    margin-bottom: 3px;
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
+
+.ico-user, .ico-location{
+    display: grid;
+    grid-template-columns: 50% 50%;}
+
 .ico-location img{
     width:12px;
-    max-width: 28px;
-    height: 13px;
+    height: 13px;}
 
-}
 .ico-location a{
     font-size: 1rem;
     color: var(--text);
     text-wrap: nowrap;
-    text-decoration: none;
-}
+    text-decoration: underline;}
+
 .content-info{
     width:289px;
-    height: auto;
-}
+    height: auto;}
+
 .content-info p{
     font-size: 1rem;
     color: #FFF;
     padding-left: 18px;
-    text-wrap: wrap;
-}
-.menu-option1-title h3{
-    padding-left: 18px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #fff;
-    text-align: left;
-}
-.menu-option1-title h4{
-    padding-left: 18px;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #fff;
-    text-align: left;}
+    text-wrap: wrap;}
 
+
+.tabla--hospedaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    color: var(--text);
+    width:90%;
+    height: auto;}
+
+.hospedaje--info th,.info--info td{
+    width:183px;
+    height: auto;}
     
 
-.logistica--column td{
-    padding-left: 10px;
-}    
+.hospedaje--info th{
+    font-weight: 700;}
+.tabla--transporte{
+    margin-left: 18px;
+    margin-bottom: 20px;}    
+
+.info-transporte{
+    width:90%;
+    height: auto;
+    color: var(--text);} 
+.info-transporte th{
+    font-size: 700;
+    padding-right: 10px;}
+  
+.info-transporte td{padding-right: 10px;}
+
+.menu-option2-title p,.transporte--rutas{
+    margin-left: 18px;
+    color: var(--subtext);
+    font-size: 1rem;
+}
+.menu-option2-title p{
+    margin-left: 18px;
+
+}
+.space-bottom{
+    margin-bottom: 52px;
+}
+    
+
 
 /* ************        SORTEO            *************/
 .qr-section img{
@@ -564,41 +614,6 @@ footer{
         width:196px;
         height: 39px;
         margin-left: 50px;}       
-
-            
-        
-        
-        
-            
-    /* .portada--home{
-        width: 320px;
-        max-width: 375px;
-        height: auto;
-        margin-left: 35%;
-        padding-top: 4%;
-        display:grid;
-        grid-template-columns: 50% 50%; }  
-     
-    .portada-derecha, .portada-izquierda{
-        width:160px;
-        height: 99px; }
-   
-    .titleDesktop h1{
-        display: block;
-        color: #FFF;
-        text-wrap: nowrap;
-        font-size: 3rem;
-        margin-left: 40px;}
-     
-    .titleMobile h1{display: none;}
-        
-    .portada-derecha img{
-        width: 216px;
-        height: 208px;}
-    
-    .portada-izquierda img{
-        width:196px;
-        height: 39px;} */
    
     .menu--home{
         display: grid;
@@ -720,6 +735,163 @@ footer{
         font-weight: 700;
         text-align: center;
         margin-top: 10px;}
+
+/* ************     Desktop: LOGISTICA     **********/
+    .logistica-mobile{display:none;}
+
+    .menu-option2-title h1{
+        font-size: 2rem;
+        margin-left: 143px;
+        margin-top: 16px;
+        margin-bottom: 15px;}
+
+    .menu-option2-title h2{
+        padding-left: 143px;
+        font-size: 1.8rem;
+        text-align: left;}
+
+    .menu-option2-title h3{
+        padding-left: 143px;
+        font-size: 1.6rem;
+        text-align: left;} 
+
+    .info--pasajeros li{
+        font-size: 1.6rem;
+        padding-left: 143px;}
+        
+        
+    .logistica-desktop{
+        display: table;
+        width: 90%;
+        height: auto;
+        margin-left: 143px;
+        color: #FFF;
+        text-align: left;
+        font-size: 1.4rem;
+        border-collapse: collapse;
+        table-layout: fixed;}
+
+
+    .info--title th, .info--pasajeros th{
+        font-weight: 700;}
+
+
+    .info--title th,.info--info td{
+        width:33%;
+        height: auto;
+        padding: 2px;}
+
+    .proveedor-msj p{
+        margin-left: 143px;
+        padding-top: 10px;
+        width: 80%;
+        color: #B2B2B2;
+        font-size: 1.6rem;}
+
+    .div-icon{
+        width:90%;
+        height: 43px;
+        margin-bottom: 20px;
+        display: flex;
+        gap:20%;
+        flex-direction: row;
+        justify-content: center;}
+
+    .ico-user, .ico-location{
+        display: flex;
+        align-items: center;
+        gap:8px;} 
+        
+    .ico-location img{
+        width:38px;
+        height: 38px;}  
+        
+   .ico-user p{
+        font-size: 1.6rem;
+        text-wrap: nowrap;}
+
+    .ico-location{margin-left:22px ;}    
+    
+    .ico-location a{
+        font-size: 1.6rem;
+        text-wrap: nowrap;
+        text-decoration: underline;}
+
+    .content-info{
+        margin-left: 143px;
+        width:676px;
+        height: auto;} 
+     
+    .content-info p{
+        width:100%;
+        text-align: center;
+        font-size: 1.6rem;  }
+
+    .tabla--hospedaje{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+        color: var(--text);
+        width:100%;
+        height: auto;}
+
+    .hospedaje--info th,.info--info td{
+        width:183px;
+        height: auto;
+        text-wrap: nowrap;}
+        
+
+    .hospedaje--info th{
+        font-weight: 800;
+        font-size: 1.6rem;}
+
+    .info--info td{font-size: 1.6rem;}
+        
+        
+    .tabla--transporte{
+        margin-left: 143px;
+        margin-bottom: 20px;}    
+
+    .info-transporte{
+        width:90%;
+        height: auto;
+        color: var(--text);} 
+
+    .info-transporte th{
+        font-size: 700;
+        padding-right: 10px;
+        font-size: 1.6rem}
+    
+    .info-transporte td{
+        padding-right: 30px;
+        font-size: 1.6rem;}
+
+    .menu-option2-title p,.transporte--rutas{
+        margin-left: 143px;
+        color: var(--subtext);
+        font-size: 1.6rem;
+    }
+    .menu-option2-title p{
+        margin-left: 143px;
+
+    }
+    .space-bottom{
+        margin-bottom: 52px;
+    }
+        
+            
+        
+   
+        
+                    
+    
+          
+    
+
+     
+
     
     
 }
