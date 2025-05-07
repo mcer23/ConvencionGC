@@ -2,7 +2,9 @@
         --fontTitle:#FDD73E;
         --button:#3045FF;
         --subtitle: #5265FD;
-        --text:#FFF;}
+        --text:#FFF;
+        --subtext:#B2B2B2;
+        --border:#636161;}
 
 *{
         box-sizing: border-box;
@@ -50,6 +52,7 @@ body{
 .signin--logo-img{
         display: flex;
         width:147px;
+        max-width: 222px;
         height: 92px;
         align-items: center;
         justify-content: center;
@@ -106,7 +109,7 @@ body{
         color: var(--text);
         text-align: center;
         font-size: 1.2rem;
-        background-color: #3045FF;
+        background-color: var(--button);
         border: none;}
 
 .signin--formSection-btns a{
@@ -173,7 +176,7 @@ body{
         justify-content: flex-start;
         align-items: center;
         text-decoration: none;
-        color: #FFF;
+        color: var(--text);
         font-size: 1.2rem;
         padding-left: 14px;}
 
@@ -190,7 +193,7 @@ body{
 
 .popup-continuar a{
         font-size: 1.2rem;
-        color: #FFF;
+        color: var(--text);
         text-decoration: none;
         text-align: center;}
 

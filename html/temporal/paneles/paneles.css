@@ -27,7 +27,7 @@ html{
  
 .main--title p{
     width: 285px;
-    max-width: 440px;
+    max-width: 1029px;
     margin-left: 18px;
     font-size: 1.2rem;
     color: #FFF;
@@ -74,6 +74,7 @@ html{
 }
 .panel--img img{
     width:90px;
+    max-width: 148px;
     height: auto;}
 
 .panel--txt{
@@ -85,6 +86,7 @@ html{
 
 .panel--txt p{
     width: 180px;
+    max-width: 273px;
     height: auto;}
 
 .card-title{
@@ -104,6 +106,7 @@ html{
 
 .div-enlaces {
     width: 126px;
+    max-width: 257px;
     height: 21px;
     border-radius: 13px;
     background-color: #3045FF;
@@ -113,6 +116,7 @@ html{
 }
 .div-enlaces a{
     width: 126px;
+    max-width: 257px;;
     height: 21px;
     border-radius: 13px;
     background-color: #3045FF;
@@ -158,9 +162,9 @@ html{
         height: auto;}
     
 
-    .panel--txt {
-            padding-top: 1rem;
-          }
+    .panel--txt {padding-top: 1rem;}
+            
+          
 
     .panel--txt p{
             width: 273px;

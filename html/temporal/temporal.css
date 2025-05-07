@@ -2,7 +2,9 @@
     --fontTitle:#FDD73E;
     --button:#3045FF;
     --subtitle: #5265FD;
-    --text:#FFF;}
+    --text:#FFF;
+    --subtext:#B2B2B2;
+    --border:#636161;}
 
 *{
         box-sizing: border-box;
@@ -42,14 +44,14 @@ html{
         margin-left: 18px;
         font-size: 1.6rem;
         font-weight: 700;
-        color: #FDD73E;
+        color: var(--fontTitle);
         text-align: left;
 }   
 .main--part1 h2 {
         margin-left: 18px;
         font-size: 1.4rem;
         font-weight: 700;
-        color: #FFF;
+        color: var(--text);
         text-align: left; 
 }
 .main--part2 h2{
@@ -57,7 +59,7 @@ html{
         margin-left: 18px;
         font-size: 1.4rem;
         font-weight: 700;
-        color: #FFF;
+        color: var(--text);
         text-align: left; 
 }
 
@@ -66,14 +68,14 @@ html{
         margin-left: 18px;
 }
 .div-part1 label, .div-part2 label{
-        color: #FFF;
+        color: var(--text);
         font-size: 1.2rem;
 }
 .part2--txt p{
         margin-top: 10px;
         margin-left: 18px;
         font-size: 1.2rem;
-        color: #FDD73E;
+        color: var(--text);
         text-align: left;
 
 }
@@ -86,24 +88,25 @@ html{
 } 
 .button-container button{
         width: 126px;
+        max-width: 254px;
         height: 21px;
         border-radius: 13px;
-        background-color: #3045FF;
-        color: #FFF;
+        background-color: var(--button);
+        color: var(--text);
         font-size: 1.2rem;
         border: none;
         margin-bottom: 10px;
         
 }
 .button-container a{
-        color: #3045FF;
+        color: var(--button);
         font-weight: 700;
         font-size: 1.2rem;
         text-align: center;
 
 }
 .button-container a:hover{
-        color: #FDD73EFF;
+        color: var(--fontTitle)
 }
 
 /*************  Paneles  ***********/  
@@ -112,13 +115,13 @@ html{
         max-width: 440px;
         margin-left: 18px;
         font-size: 1.2rem;
-        color: #FFF;
+        color: var(--text);
         text-align: left; 
 }
 .main--panel h2{
         margin-left: 18px;
         font-size: 1.4rem;
-        color: var(--subtitle);
+        color: var(--button);
         text-align: left; 
 }
 .main--panel p{
@@ -126,7 +129,7 @@ html{
         max-width: 440px;
         margin-left: 18px;
         font-size: 1.2rem;
-        color: #B2B2B2;
+        color: var(--subtext);
         text-align: left; 
 }
 .panel--card{
@@ -136,7 +139,7 @@ html{
         height: 72px;
         display: flex;
         margin: 10px auto;
-        border: 1px solid #FDD73E;
+        border: 1px solid var(--fontTitle);
         border-radius: 5px;
 
 }
@@ -170,17 +173,18 @@ html{
 
 .panel--txt p{
         width: 150px;
+        max-width: 167px;
         height: auto;
 }
 .panel--txt .card-title{
         font-size: 1.2rem;
         font-weight: 700;
-        color: #FFF;
+        color: var(--text);
         word-wrap: break-word;
 }
 .panel--txt .card-text,.panel--txt span {
         font-weight: 1rem;
-        color: #B2B2B2;
+        color: var(--subtext);
 }
 
 @media (min-width: 1024px) {
@@ -205,16 +209,14 @@ html{
 .part2--txt p{font-size: 1.8rem;}
         
 /* CSS */
-/* Aplica grid a las filas */
-/* Aplica grid general */
         .row {
         display: grid;
         gap: 1rem;
         margin-bottom: 2rem;
-      }
+        }
       .column input{
         margin-top: 10px;
-      }
+        }
       
       /* Cada fila tiene su cantidad de columnas */
       .row-top,
@@ -235,7 +237,7 @@ html{
         flex-direction: column;
       }
          
-/*    */
+
 
 .button-container{
         display: flex;
