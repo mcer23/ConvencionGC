@@ -1,0 +1,30 @@
+{
+  "name": "sorteo",
+  "version": "1.0.0",
+  "description": "Sorteo de convenciones coppel para los invitados al evento y participantes.",
+  "main": "sorteo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcer23/ConvencionGC.git"
+  },
+  "keywords": [
+    "sorteo",
+    "convencion",
+    "coppel"
+  ],
+  "author": "melissa cecilia estrada ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcer23/ConvencionGC/issues"
+  },
+  "homepage": "https://github.com/mcer23/ConvencionGC#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  }
+}
