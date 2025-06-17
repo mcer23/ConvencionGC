@@ -1,24 +1,12 @@
 :root{
-        /* Dark */
+        --bgDarkTheme:#2E2E2E;
         --fontTitle:#FDD73E;
         --button:#3045FF;
         --subtitle: #5265FD;
         --text:#FFF;
         --subtext:#B2B2B2;
         --border:#636161;
-
-        /* light */
-        --lightFontTitle:#2E2E2E;
-        --lightButton:#3045FF;
-        --lightbg:#EFEFEF;
-        --lightText:#2E2E2E;
-        --lightSubText:#6B6B6B;
-        --lightBorder:#C9C9C9;
-
-
-
-
-}
+        }
 
 *{
         box-sizing: border-box;

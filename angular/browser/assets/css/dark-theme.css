@@ -1,0 +1,27 @@
+:root{
+  /* Colors */
+  --primary:#006FB9;
+  --complementary:#FFDD35;
+  --black:#1B1A16;
+  --neutral:#BDBDBD;
+  --white:#FFF;
+  --background:#514F54;
+  --text: #FFF;
+
+  /* Semantic colors */
+  --error:#BA4B44;
+  --success:#2E8241;                                          
+  --success-soft:#E5FFEB; 
+  --success-background:#E5FFEB;
+  --warning:#AB5C00;
+  --info:#0076A9;
+  --sales:#F44336;
+
+  /* Behavior colors */
+  --primary-hover:#A1B8DE;
+  --primary-press:#194B7B;
+  --primary-disabled:#A1B8DE;
+  /* PrimeNg colors*/
+  --background-soft: #514F54;
+   
+}

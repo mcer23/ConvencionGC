@@ -1,0 +1,48 @@
+:root{
+
+
+    /* ----------------------------Colors ------------------------Variantes  */
+    
+      --primary:#006FB9;
+      --complementary:#FFDD35;
+      --black:#1B1A16;
+      --neutral:#BDBDBD;
+      --white:#FFF;
+      --background:#FAFBFC;
+      --text: #1B1A16;
+    
+      /* Semantic colors */
+      --error:#BA4B44;
+      --success:#2E8241;                                          
+      --success-soft:#E5FFEB; 
+      --success-background:#E5FFEB;
+      --warning:#AB5C00;
+      --info:#0076A9;
+      --sales:#F44336;
+    
+    /* Behavior colors */
+      --primary-hover:#145B97;
+      --primary-press:#194B7B;
+      --primary-disabled:#A1B8DE;
+    
+    /* ----------------------------Fonts */
+    
+    --display:47px;
+    --h1:36px;
+    --h2:28px;
+    --h3:24px;
+    --h4:20px;
+    --body:16px;
+    --small:12px;
+    --caption:10px;
+    
+    /* ----------------------------Space Unit */
+    
+    
+    --s-unit:8px;
+    --s-unit-2:16px;
+    --s-unit-3:24px;
+    --s-unit-4:32px;
+    --s-unit-5:40px;
+    
+}
